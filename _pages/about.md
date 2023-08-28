@@ -76,8 +76,6 @@ My research interest includes,
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
-- *2023.09*, TPC Member, Globecom workshop 2022 - CommCIN. 
-- *2022.03*, TPC Member, ICC workshop 2022 - Intelligent-CRAN.
 - *2023.07*, The 4th Wireless Big Data Competition - Multi-Objective Beamforming Optimization. Award: Third Prize.
 - *2022.09*, The 3rd Wireless Big Data Competition - 5G Massive MIMO Optimization. Award: Second Prize (Third Place).
 - *2021.07*, The 2nd Wireless Big Data Competition - Wireless Link Quality Prediction. Award: Second Priz (Runner-up).  
@@ -98,6 +96,12 @@ My research interest includes,
 - *2018.09 - 2020.06*, M.E. in Information and Communication Engineering. Shanghai University. 
    Advisor: Prof. Shugong Xu (IEEE Fellow).
 - *2014.09 - 2018.06*, B.E. in Communication Engineering. Shanghai University.  
+
+# 💬 Reviewing Experiences
+- *2023.09*, TPC Member, Globecom workshop 2022 - CommCIN. 
+- *2022.03*, TPC Member, ICC workshop 2022 - Intelligent-CRAN.
+- Reviewer for IEEE Internet of Things Journal
+
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
