@@ -64,7 +64,12 @@ My research interest includes,
 - *2023.08*, Several scholarships from SHU during undergrad/graduate schools.
 
 # 🎉 Research Projects
-- 1
+- *2022 - 2024*, R18 base station Project Supporting Real-time Ultra-Wideband Wireless Communications.
+- *2020 - 2023*, All-dimensional Database Construction and Data-driven Wireless Transmission Research.
+- *2020 - 2021*, China Mobile Research Institute Project: Wireless Network Element intelligent applications.
+- *2019 - 2022*, Key Technologies for Wireless Communication Systems Based on Baseband-RF Joint Optimizationtion.
+- *2018 - 2019*, Research and development of R15 5G terminal test prototypes.
+
 
 # 📖 Educations
 - *2019.06 - Present*, Ph.D. candidate in Communication and Information Systems, Shanghai University.
