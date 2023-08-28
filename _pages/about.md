@@ -34,16 +34,28 @@ My research interest includes,
 - Wireless AI / Deep Learning / Reinforcement Learning -->
 
 
-# 🎉 News
+# 🔥 News
 - *2022.02*: &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2022.02*: &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📝 Publications 
 
+
+- **G. Pan**, "User-Centric QoE Optimization for XR Transmission in Cell-Free Networks." (Working Paper)
+- **G. Pan**, S. Xu, S. Zhang and X. Chen, Y. Sun, "Quality of Experience Oriented Cross-layer Optimization for Real-time XR Video Transmission," IEEE Transactions on Circuits and Systems for Video Technology, 2023. (Submitted)
+- **G. Pan**, S. Xu, S. Zhang and X. Chen, Y. Sun, "Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints," IEEE Transactions on Vehicular Technology, 2023. (Submitted)
+- **G. Pan**, H. Zhang, S. Xu, S. Zhang and X. Chen, "Joint Optimization of Video-Based AI Inference Tasks in MEC-Assisted Augmented Reality Systems," IEEE Transactions on Cognitive Communications and Networking, vol. 9, no. 2, pp. 479-493, April 2023. 
+- **G. Pan**, T. Wang, S. Zhang and S. Xu, "High Accurate Time-of-Arrival Estimation With Fine-Grained Feature Generation for Internet-of-Things Applications," IEEE Wireless Communications Letters, vol. 9, no. 11, pp. 1980-1984, Nov. 2020. 
+- Z Wang, G Pan, Y Sun, S Zhang, "An Interference-Aware Resource-Allocation Scheme for Non-Cooperative Multi-Cell Environment," Electronics, 2023, 12, 868.
+- H. Wen, J. Yu, **G. Pan**, X. Chen, S. Zhang and S. Xu, "A Hybrid CNN-LSTM Architecture for High Accurate Edge-Assisted Bandwidth Prediction," IEEE Wireless Communications Letters, vol. 11, no. 12, pp. 2640-2644, Dec. 2022.
+- J. Yu, H. Wen, **G. Pan**, S. Zhang, X. Chen and S. Xu, "Quality of Experience Oriented Adaptive Video Streaming for Edge Assisted Cellular Networks," IEEE Wireless Communications Letters, vol. 11, no. 11, pp. 2305-2309, Nov. 2022.
+- H. Zhang, **G. Pan**, S. Xu, S. Zhang and Z. Jiang, "Prediction-based Hybrid Slicing Framework for Service Level Agreement Guarantee in Mobility Scenarios: A Deep Learning Approach," China Communication, 2022.
+
+
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1"> -->
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+<!-- [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 
 **Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
 
@@ -52,7 +64,7 @@ My research interest includes,
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
 - *2023.09*, TPC Member, Globecom workshop 2022 - CommCIN. 
