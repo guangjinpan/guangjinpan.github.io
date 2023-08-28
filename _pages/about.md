@@ -25,6 +25,11 @@ My research interest includes neural machine translation and computer vision. I 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
+# 🔥 Research Interests
+- Wireless XR Transmission / Wireless Metaverse 
+- Semantic Communications
+- Wireless AI / Deep Learning / Reinforcement Learning
+
 
 # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -59,5 +64,5 @@ My research interest includes neural machine translation and computer vision. I 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
 # 💻 Internships
-- *2023.07 - Now*, Bytedance, Real-time Audio-VideoTransmission Intern. Hangzhou, China.
+- *2023.07 - Present*, Bytedance, Real-time Audio-VideoTransmission Intern. Hangzhou, China.
 - *2022.07 - 2023.03*, Huawei, Wireless Communication Algorithm Intern. Shanghai, China.
