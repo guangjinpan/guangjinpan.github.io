@@ -42,7 +42,7 @@ My research interest includes,
 
 
 <!-- - **G. Pan**, "User-Centric QoE Optimization for XR Transmission in Cell-Free Networks." (Working Paper) -->
-[**Journal**]
+**Journal**
 - **G. Pan**, S. Xu, S. Zhang and X. Chen, Y. Sun, "Quality of Experience Oriented Cross-layer Optimization for Real-time XR Video Transmission," IEEE Transactions on Circuits and Systems for Video Technology, 2023. (Submitted)
 - **G. Pan**, S. Xu, S. Zhang and X. Chen, Y. Sun, "Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints," IEEE Transactions on Vehicular Technology, 2023. (Submitted)
 - **G. Pan**, H. Zhang, S. Xu, S. Zhang and X. Chen, "Joint Optimization of Video-Based AI Inference Tasks in MEC-Assisted Augmented Reality Systems," IEEE Transactions on Cognitive Communications and Networking, vol. 9, no. 2, pp. 479-493, April 2023.
@@ -99,9 +99,9 @@ My research interest includes,
    Advisor: Prof. Shugong Xu (IEEE Fellow).
 - *2014.09 - 2018.06*, B.E. in Communication Engineering. Shanghai University.  
 
-# 💬 Invited Talks
+<!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
 - *2023.07 - Present*, Bytedance, Real-time Audio-VideoTransmission Intern. Hangzhou, China.
