@@ -64,11 +64,11 @@ My research interest includes,
 - *2023.08*, Several scholarships from SHU during undergrad/graduate schools.
 
 # 📖 Educations
-- *2019.06 - Present*, Ph.D. candidate in Communication and Information Systems, Shanghai University, Shanghai, China.
+- *2019.06 - Present*, Ph.D. candidate in Communication and Information Systems, Shanghai University.
    Advisor: Prof. Shugong Xu (IEEE Fellow). 
-- *2018.09 - 2020.06*, M.E. in Information and Communication Engineering. Shanghai University, Shanghai, China. 
+- *2018.09 - 2020.06*, M.E. in Information and Communication Engineering. Shanghai University. 
    Advisor: Prof. Shugong Xu (IEEE Fellow).
-- *2014.09 - 2018.06*, B.E. in Communication Engineering. Shanghai University, Shanghai, China.  
+- *2014.09 - 2018.06*, B.E. in Communication Engineering. Shanghai University.  
 
 # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
