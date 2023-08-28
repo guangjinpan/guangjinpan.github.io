@@ -100,7 +100,7 @@ My research interest includes,
 # 💬 Reviewing Experiences
 - *2023.09*, TPC Member, Globecom workshop 2022 - CommCIN. 
 - *2022.03*, TPC Member, ICC workshop 2022 - Intelligent-CRAN.
-- Reviewer for IEEE Internet of Things Journal
+- Reviewer for IEEE Internet of Things Journal, Globecom, ICC, et al. 
 
 
 <!-- # 💬 Invited Talks
