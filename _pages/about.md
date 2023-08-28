@@ -55,7 +55,16 @@ My research interest includes,
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023.09* TPC Member, Globecom workshop 2022 - CommCIN. 
+- *2022.03* TPC Member, ICC workshop 2022 - Intelligent-CRAN.
+- *2023.07* The 4th Wireless Big Data Competition - Multi-Objective Beamforming Optimization. Award: Third Prize.
+- *2022.09* The 3rd Wireless Big Data Competition - 5G Massive MIMO Optimization. Award: Second Prize (Third Place).
+- *2021.07* The 2nd Wireless Big Data Competition - Wireless Link Quality Prediction. Award: Second Priz (Runner-up).  
+- *2020.09* The 1st Wireless Big Data Competition - Cross-Layer Intelligent QoE Optimization. Award: Second Prize (Runner-up).  
+- *2023.08* Several scholarships from SHU during undergrad/graduate schools.
+
+
+
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📖 Educations
