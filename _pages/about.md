@@ -111,5 +111,5 @@ My research interest includes,
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2023.07 - Present*, Bytedance, Real-time Audio-VideoTransmission Intern. Hangzhou, China.
+- *2023.07 - 2023.10*, Bytedance, Real-time Audio-VideoTransmission Intern. Hangzhou, China.
 - *2022.07 - 2023.03*, Huawei, Wireless Communication Algorithm Intern. Shanghai, China.
