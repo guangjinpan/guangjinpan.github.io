@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-Welcome to my homepage. I received my B.E. from the School of Communications and Information Engineering at Shanghai University, China in 2018. I am currently studying for Ph.D. degree in the School of Communication and Information Engineering, Shanghai University. My advisor was Professor Shugong Xu from GREAT. 
+Welcome to my homepage. I received my B.E. from the School of Communications and Information Engineering at Shanghai University, China in 2018. I am currently studying for Ph.D. degree in the School of Communication and Information Engineering, Shanghai University. My advisor is Professor Shugong Xu (IEEE Fellow) from GREAT. 
 
 My research interest includes,
 - Wireless XR Transmission / Wireless Metaverse 
