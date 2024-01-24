@@ -61,7 +61,7 @@ My research interest includes,
 - **G. Pan**, H. Zhang, S. Xu, S. Zhang and X. Chen, "Joint Optimization of DNN Inference Delay and Energy under Accuracy Constraints for AR Applications," 2022 GLOBECOM, Rio de Janeiro, Brazil, 2022, pp. 2230-2235.
 - H. Zhang, **G. Pan**, S. Xu, S. Zhang and Z. Jiang, "A Hard and Soft Hybrid Slicing Framework for Service Level Agreement Guarantee via Deep Reinforcement Learning," 2022 VTC2022-Spring, Helsinki, Finland, 2022, pp. 1-5. 
 - Y. Sun, Q. Xie, **G. Pan**, S. Zhang and S. Xu, "A Novel GCN-based Indoor Localization System with Multiple Access Points," 2021 IWCMC, Harbin City, China, 2021, pp. 9-14. 
-- G. Pan, Tao. W, X. Jiang and S. Zhang, "Deep Learning based OTDOA Positioning for NB-IoT Communication Systems. " 2020 Mobimedia, 27-28 August 2020. 
+- **G. Pan**, Tao. W, X. Jiang and S. Zhang, "Deep Learning based OTDOA Positioning for NB-IoT Communication Systems. " 2020 Mobimedia, 27-28 August 2020. 
 
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
