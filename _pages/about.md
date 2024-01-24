@@ -43,7 +43,7 @@ My research interest includes,
 
 <!-- - **G. Pan**, "User-Centric QoE Optimization for XR Transmission in Cell-Free Networks." (Working Paper) -->
 **Journal**
-- **G. Pan**, S. Xu, W Xiong, Y. Sun, S. Zhang and X. Chen, "A Transformer-based QoE Prediction Method in RIC-assisted Real-time XR Transmission System," IEEE Wireless Communications Letters, 2024. (Submitted)
+- **G. Pan**, S. Xu, W. Xiong, Y. Sun, S. Zhang and X. Chen, "A Transformer-based QoE Prediction Method in RIC-assisted Real-time XR Transmission System," IEEE Wireless Communications Letters, 2024. (Submitted)
 - **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Quality of Experience Oriented Cross-layer Optimization for Real-time XR Video Transmission," IEEE Transactions on Circuits and Systems for Video Technology, 2023. (Submitted)
 - **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints," IEEE Transactions on Vehicular Technology, 2023. (Submitted)
 - **G. Pan**, H. Zhang, S. Xu, S. Zhang and X. Chen, "Joint Optimization of Video-Based AI Inference Tasks in MEC-Assisted Augmented Reality Systems," IEEE Transactions on Cognitive Communications and Networking, vol. 9, no. 2, pp. 479-493, April 2023.
@@ -56,12 +56,12 @@ My research interest includes,
 
 [**Conference**]
 - **G. Pan**, S. Xu, S. Zhang and X. Chen, Y. Sun, "Real-time Extended Reality Video Transmission Optimization Based on Frame-priority Scheduling," 2023 FCN, 2023.
-- X Ye, Y Sun, D Wen, **G Pan**, S Zhang, "End-to-End Delay Minimization based on Joint Optimization of DNN Partitioning and Resource Allocation for Cooperative Edge Inference," 2023 VTC-Fall, Hong Kong, Hong Kong, 2023. pp. 1-7.
-- Y Sun, W Chen, **G Pan**, S Zhang, X Chen, Y Wu, "Joint Bitrate Transcoding and Parallel Cooperative Transmission Optimization for Adaptive Video Streaming in Edge Assisted Cellular Networks," 2023 VTC-Fall, Hong Kong, Hong Kong, 2023. pp. 1-7.
+- X. Ye, Y. Sun, D. Wen, **G Pan**, S. Zhang, "End-to-End Delay Minimization based on Joint Optimization of DNN Partitioning and Resource Allocation for Cooperative Edge Inference," 2023 VTC-Fall, Hong Kong, Hong Kong, 2023. pp. 1-7.
+- Y. Sun, W. Chen, **G. Pan**, S. Zhang, X. Chen, Y. Wu, "Joint Bitrate Transcoding and Parallel Cooperative Transmission Optimization for Adaptive Video Streaming in Edge Assisted Cellular Networks," 2023 VTC-Fall, Hong Kong, Hong Kong, 2023. pp. 1-7.
 - **G. Pan**, H. Zhang, S. Xu, S. Zhang and X. Chen, "Joint Optimization of DNN Inference Delay and Energy under Accuracy Constraints for AR Applications," 2022 GLOBECOM, Rio de Janeiro, Brazil, 2022, pp. 2230-2235.
 - H. Zhang, **G. Pan**, S. Xu, S. Zhang and Z. Jiang, "A Hard and Soft Hybrid Slicing Framework for Service Level Agreement Guarantee via Deep Reinforcement Learning," 2022 VTC2022-Spring, Helsinki, Finland, 2022, pp. 1-5. 
 - Y. Sun, Q. Xie, **G. Pan**, S. Zhang and S. Xu, "A Novel GCN-based Indoor Localization System with Multiple Access Points," 2021 IWCMC, Harbin City, China, 2021, pp. 9-14. 
-- G Pan, Tao W, X Jiang and S Zhang, "Deep Learning based OTDOA Positioning for NB-IoT Communication Systems. " 2020 Mobimedia, 27-28 August 2020. 
+- G. Pan, Tao. W, X. Jiang and S. Zhang, "Deep Learning based OTDOA Positioning for NB-IoT Communication Systems. " 2020 Mobimedia, 27-28 August 2020. 
 
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
