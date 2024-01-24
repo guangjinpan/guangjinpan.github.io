@@ -54,7 +54,9 @@ My research interest includes,
 
 
 [**Conference**]
-- **G. Pan**, S. Xu, S. Zhang and X. Chen, Y. Sun, "Real-time Extended Reality Video Transmission Optimization Based on Frame-priority Scheduling," 2023 WCSP, 2023. (Submitted)
+- **G. Pan**, S. Xu, S. Zhang and X. Chen, Y. Sun, "Real-time Extended Reality Video Transmission Optimization Based on Frame-priority Scheduling," 2023 FCN, 2023.
+- X Ye, Y Sun, D Wen, **G Pan**, S Zhang, "End-to-End Delay Minimization based on Joint Optimization of DNN Partitioning and Resource Allocation for Cooperative Edge Inference," 2023 VTC-Fall, Hong Kong, Hong Kong, 2023. pp. 1-7.
+- Y Sun, W Chen, **G Pan**, S Zhang, X Chen, Y Wu, "Joint Bitrate Transcoding and Parallel Cooperative Transmission Optimization for Adaptive Video Streaming in Edge Assisted Cellular Networks," 2023 VTC-Fall, Hong Kong, Hong Kong, 2023. pp. 1-7.
 - **G. Pan**, H. Zhang, S. Xu, S. Zhang and X. Chen, "Joint Optimization of DNN Inference Delay and Energy under Accuracy Constraints for AR Applications," 2022 GLOBECOM, Rio de Janeiro, Brazil, 2022, pp. 2230-2235.
 - H. Zhang, **G. Pan**, S. Xu, S. Zhang and Z. Jiang, "A Hard and Soft Hybrid Slicing Framework for Service Level Agreement Guarantee via Deep Reinforcement Learning," 2022 VTC2022-Spring, Helsinki, Finland, 2022, pp. 1-5. 
 - Y. Sun, Q. Xie, **G. Pan**, S. Zhang and S. Xu, "A Novel GCN based Indoor Localization System with Multiple Access Points," 2021 IWCMC, Harbin City, China, 2021, pp. 9-14. 
