@@ -85,7 +85,7 @@ My research interest includes,
 - *2023.08*, Several scholarships from SHU during undergrad/graduate schools.
 
 # 🎉 Research Projects
-- *2022 - 2024*, R18 base station Project Supporting Real-time Ultra-Wideband Wireless Communications.
+- *2022 - 2024*, R18 Base Station Project Supporting RTBC.
 - *2020 - 2023*, All-dimensional Database Construction and Data-driven Wireless Transmission Research.
 - *2020 - 2021*, China Mobile Research Institute Project: Wireless Network Element intelligent applications.
 - *2019 - 2022*, Key Technologies for Wireless Communication Systems Based on Baseband-RF Joint Optimizationtion.
@@ -100,7 +100,7 @@ My research interest includes,
 - *2014.09 - 2018.06*, B.E. in Communication Engineering. Shanghai University.  
 
 # 💬 Reviewing Experiences
-- *2023.09*, TPC Member, Globecom workshop 2022 - CommCIN. 
+- *2023.09*, TPC Member, Globecom workshop 2023 - CommCIN. 
 - *2022.03*, TPC Member, ICC workshop 2022 - Intelligent-CRAN.
 - Reviewer for IEEE Internet of Things Journal, IEEE Wireless Communications Letters, IEEE Transactions on Vehicular Technology, Globecom, ICC, et al. 
 
