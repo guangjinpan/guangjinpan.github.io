@@ -16,11 +16,10 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-Welcome to my homepage. I received my B.E. from the School of Communications and Information Engineering at Shanghai University, China in 2018. I am currently studying for Ph.D. degree in the School of Communication and Information Engineering, Shanghai University. My advisor is Professor Shugong Xu (IEEE Fellow) from GREAT. 
+Welcome to my homepage. I received my B.E. from the School of Communications and Information Engineering at Shanghai University, China in 2018. I am currently studying for Ph.D. degree in the School of Communication and Information Engineering, Shanghai University. My advisor is Professor Shugong Xu from GREAT Lab. 
 
 My research interest includes,
-- Wireless XR Transmission / Wireless Metaverse 
-- Semantic Communications
+- Wireless XR Transmission / Wireless Metaverse / Semantic Communications
 - Wireless AI / Deep Learning / Reinforcement Learning
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
