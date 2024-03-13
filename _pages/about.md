@@ -43,7 +43,7 @@ My research interest includes,
 <!-- - **G. Pan**, "User-Centric QoE Optimization for XR Transmission in Cell-Free Networks." (Working Paper) -->
 **Journal**
 - **G. Pan**, S. Xu, W. Xiong, Y. Sun, S. Zhang and X. Chen, "A Transformer-based QoE Prediction Method in RIC-assisted Real-time XR Transmission System," IEEE Wireless Communications Letters, 2024. (Submitted)
-- **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Quality of Experience Oriented Cross-layer Optimization for Real-time XR Video Transmission," IEEE Transactions on Circuits and Systems for Video Technology, 2023. (Submitted)
+- **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Quality of Experience Oriented Cross-layer Optimization for Real-time XR Video Transmission," IEEE Transactions on Circuits and Systems for Video Technology, 2023. (Early Access)
 - **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints," IEEE Transactions on Vehicular Technology, 2023. (Submitted)
 - **G. Pan**, H. Zhang, S. Xu, S. Zhang and X. Chen, "Joint Optimization of Video-Based AI Inference Tasks in MEC-Assisted Augmented Reality Systems," IEEE Transactions on Cognitive Communications and Networking, vol. 9, no. 2, pp. 479-493, April 2023.
 - H. Wen, J. Yu, **G. Pan**, X. Chen, S. Zhang and S. Xu, "A Hybrid CNN-LSTM Architecture for High Accurate Edge-Assisted Bandwidth Prediction," IEEE Wireless Communications Letters, vol. 11, no. 12, pp. 2640-2644, Dec. 2022.
