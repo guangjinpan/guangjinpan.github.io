@@ -41,10 +41,11 @@ My research interest includes,
 
 
 <!-- - **G. Pan**, "User-Centric QoE Optimization for XR Transmission in Cell-Free Networks." (Working Paper) -->
-**Journal**
-- **G. Pan**, S. Xu, W. Xiong, Y. Sun, S. Zhang and X. Chen, "A Transformer-based QoE Prediction Method in RIC-assisted Real-time XR Transmission System," IEEE Wireless Communications Letters, 2024. (Submitted)
-- **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Quality of Experience Oriented Cross-layer Optimization for Real-time XR Video Transmission," IEEE Transactions on Circuits and Systems for Video Technology, 2023. (Early Access)
-- **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints," IEEE Transactions on Vehicular Technology, 2023. (Submitted)
+[**Journal**]
+- **G. Pan**, S. Xu, and P. Jiang, "Optimizing 5G-A Networks for Time-critical Applications: The Role of L4S," IEEE Wireless Communications, 2024. (Submitted)
+- **G. Pan**, S. Xu, W. Xiong, Y. Sun, S. Zhang and X. Chen, "A Transformer-based QoE Prediction Method in RIC-assisted Real-time XR Transmission System," IEEE Transactions on Circuits and Systems for Video Technology, 2024. (Submitted)
+- **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Quality of Experience Oriented Cross-layer Optimization for Real-time XR Video Transmission," IEEE Transactions on Circuits and Systems for Video Technology, 2024. (Accepted)
+- **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints," IEEE Transactions on Vehicular Technology, 2024. (Revised)
 - **G. Pan**, H. Zhang, S. Xu, S. Zhang and X. Chen, "Joint Optimization of Video-Based AI Inference Tasks in MEC-Assisted Augmented Reality Systems," IEEE Transactions on Cognitive Communications and Networking, vol. 9, no. 2, pp. 479-493, April 2023.
 - H. Wen, J. Yu, **G. Pan**, X. Chen, S. Zhang and S. Xu, "A Hybrid CNN-LSTM Architecture for High Accurate Edge-Assisted Bandwidth Prediction," IEEE Wireless Communications Letters, vol. 11, no. 12, pp. 2640-2644, Dec. 2022.
 - J. Yu, H. Wen, **G. Pan**, S. Zhang, X. Chen and S. Xu, "Quality of Experience Oriented Adaptive Video Streaming for Edge Assisted Cellular Networks," IEEE Wireless Communications Letters, vol. 11, no. 11, pp. 2305-2309, Nov. 2022.
@@ -54,9 +55,11 @@ My research interest includes,
 
 
 [**Conference**]
+
+- X. Chen, Z. Zhou, W. Ni, **G Pan**, X. Wang, S Zhang, and Y Sun, "Privacy-Preserving Resource Allocation for Asynchronous Federated Learning", 2024 VTC-Spring, 2024.
 - **G. Pan**, S. Xu, S. Zhang and X. Chen, Y. Sun, "Real-time Extended Reality Video Transmission Optimization Based on Frame-priority Scheduling," 2023 FCN, 2023.
-- X. Ye, Y. Sun, D. Wen, **G Pan**, S. Zhang, "End-to-End Delay Minimization based on Joint Optimization of DNN Partitioning and Resource Allocation for Cooperative Edge Inference," 2023 VTC-Fall, Hong Kong, Hong Kong, 2023. pp. 1-7.
-- Y. Sun, W. Chen, **G. Pan**, S. Zhang, X. Chen, Y. Wu, "Joint Bitrate Transcoding and Parallel Cooperative Transmission Optimization for Adaptive Video Streaming in Edge Assisted Cellular Networks," 2023 VTC-Fall, Hong Kong, Hong Kong, 2023. pp. 1-7.
+- X. Ye, Y. Sun, D. Wen, **G Pan**, and S. Zhang, "End-to-End Delay Minimization based on Joint Optimization of DNN Partitioning and Resource Allocation for Cooperative Edge Inference," 2023 VTC-Fall, Hong Kong, Hong Kong, 2023. pp. 1-7.
+- Y. Sun, W. Chen, **G. Pan**, S. Zhang, X. Chen, and Y. Wu, "Joint Bitrate Transcoding and Parallel Cooperative Transmission Optimization for Adaptive Video Streaming in Edge Assisted Cellular Networks," 2023 VTC-Fall, Hong Kong, Hong Kong, 2023. pp. 1-7.
 - **G. Pan**, H. Zhang, S. Xu, S. Zhang and X. Chen, "Joint Optimization of DNN Inference Delay and Energy under Accuracy Constraints for AR Applications," 2022 GLOBECOM, Rio de Janeiro, Brazil, 2022, pp. 2230-2235.
 - H. Zhang, **G. Pan**, S. Xu, S. Zhang and Z. Jiang, "A Hard and Soft Hybrid Slicing Framework for Service Level Agreement Guarantee via Deep Reinforcement Learning," 2022 VTC2022-Spring, Helsinki, Finland, 2022, pp. 1-5. 
 - Y. Sun, Q. Xie, **G. Pan**, S. Zhang and S. Xu, "A Novel GCN-based Indoor Localization System with Multiple Access Points," 2021 IWCMC, Harbin City, China, 2021, pp. 9-14. 
@@ -78,6 +81,7 @@ My research interest includes,
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
+- *2023.11*, The 1st WiFi Sensing Contest. Award: Third Prize.
 - *2023.07*, The 4th Wireless Big Data Competition - Multi-Objective Beamforming Optimization. Award: Third Prize.
 - *2022.09*, The 3rd Wireless Big Data Competition - 5G Massive MIMO Optimization. Award: Second Prize (Third Place).
 - *2021.07*, The 2nd Wireless Big Data Competition - Wireless Link Quality Prediction. Award: Second Priz (Runner-up).  
@@ -88,7 +92,7 @@ My research interest includes,
 - *2022 - 2024*, R18 Base Station Project Supporting RTBC.
 - *2020 - 2023*, All-dimensional Database Construction and Data-driven Wireless Transmission Research.
 - *2020 - 2021*, China Mobile Research Institute Project: Wireless Network Element intelligent applications.
-- *2019 - 2022*, Key Technologies for Wireless Communication Systems Based on Baseband-RF Joint Optimizationtion.
+- *2019 - 2022*, Key Technologies for Wireless Communication Systems Based on Baseband-RF Joint Optimization.
 - *2018 - 2019*, Research and development of R15 5G terminal test prototypes.
 
 
