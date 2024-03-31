@@ -34,11 +34,9 @@ My research interest includes,
 
 
 # 🔥 News
-- *2022.02*: &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.02*: &nbsp; I am pleased to announce that my article, "Quality of Experience Oriented Cross-Layer Optimization for Real-Time XR Video Transmission," has been accepted for publication by the IEEE Transactions on Circuits and Systems for Video Technology. 
 
 # 📝 Publications 
-
 
 <!-- - **G. Pan**, "User-Centric QoE Optimization for XR Transmission in Cell-Free Networks." (Working Paper) -->
 [**Journal**]
