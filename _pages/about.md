@@ -20,6 +20,7 @@ Welcome to my homepage. I received my B.E. from the School of Communications and
 
 My research interest includes,
 - Wireless XR Transmission / Wireless Metaverse / Semantic Communications
+- Wireless Positioning / ISAC
 - Wireless AI / Deep Learning / Reinforcement Learning
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
@@ -34,6 +35,7 @@ My research interest includes,
 
 
 # 🔥 News
+- *2024.02*: &nbsp; 🎉 I am searching for potential postdoctoral positions with a primary focus on areas such as media transmission, semantic communication, wireless positioning, ISAC, network slicing, and so on.
 - *2024.02*: &nbsp; 🎉 I am pleased to announce that my article, Quality of Experience Oriented Cross-Layer Optimization for Real-Time XR Video Transmission has been accepted for publication by the IEEE Transactions on Circuits and Systems for Video Technology. 
 
 # 📝 Publications 
