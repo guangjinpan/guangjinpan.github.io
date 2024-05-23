@@ -35,17 +35,18 @@ My research interest includes,
 
 
 # 🔥 News
-- *2024.02*: &nbsp; 🎉 I am searching for potential postdoctoral positions with a primary focus on areas such as media transmission, semantic communication, wireless positioning, ISAC, network slicing, and so on.
-- *2024.02*: &nbsp; 🎉 I am pleased to announce that my article, Quality of Experience Oriented Cross-Layer Optimization for Real-Time XR Video Transmission has been accepted for publication by the IEEE Transactions on Circuits and Systems for Video Technology. 
+- *2024.05*: &nbsp; 🎉 Our work is accepted by IEEE Transactions on Vehicular Technology: Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints.
+- *2024.02*: &nbsp; 🎉 Our work is accepted by IEEE Transactions on Circuits and Systems for Video Technology: Quality of Experience Oriented Cross-Layer Optimization for Real-Time XR Video Transmission. 
+
 
 # 📝 Publications 
 
 <!-- - **G. Pan**, "User-Centric QoE Optimization for XR Transmission in Cell-Free Networks." (Working Paper) -->
 [**Journal**]
-- **G. Pan**, S. Xu, and P. Jiang, "Optimizing 5G-A Networks for Time-critical Applications: The Role of L4S," IEEE Wireless Communications, 2024. (Submitted)
+- **G. Pan**, S. Xu, and P. Jiang, "Optimizing 5G-A Networks for Time-critical Applications: The Role of L4S," IEEE Wireless Communications, 2024. (Revised)
 - **G. Pan**, S. Xu, W. Xiong, Y. Sun, S. Zhang and X. Chen, "A Transformer-based QoE Prediction Method in RIC-assisted Real-time XR Transmission System," IEEE Transactions on Circuits and Systems for Video Technology, 2024. (Submitted)
 - **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Quality of Experience Oriented Cross-layer Optimization for Real-time XR Video Transmission," IEEE Transactions on Circuits and Systems for Video Technology, 2024. (Accepted)
-- **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints," IEEE Transactions on Vehicular Technology, 2024. (Revised)
+- **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints," IEEE Transactions on Vehicular Technology, 2024. (Accepted)
 - **G. Pan**, H. Zhang, S. Xu, S. Zhang and X. Chen, "Joint Optimization of Video-Based AI Inference Tasks in MEC-Assisted Augmented Reality Systems," IEEE Transactions on Cognitive Communications and Networking, vol. 9, no. 2, pp. 479-493, April 2023.
 - H. Wen, J. Yu, **G. Pan**, X. Chen, S. Zhang and S. Xu, "A Hybrid CNN-LSTM Architecture for High Accurate Edge-Assisted Bandwidth Prediction," IEEE Wireless Communications Letters, vol. 11, no. 12, pp. 2640-2644, Dec. 2022.
 - J. Yu, H. Wen, **G. Pan**, S. Zhang, X. Chen and S. Xu, "Quality of Experience Oriented Adaptive Video Streaming for Edge Assisted Cellular Networks," IEEE Wireless Communications Letters, vol. 11, no. 11, pp. 2305-2309, Nov. 2022.
