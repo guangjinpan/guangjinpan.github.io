@@ -29,12 +29,13 @@ My research interest includes,
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 <!-- # 🔥 Research Interests
-- Wireless XR Transmission / Wireless Metaverse 
-- Semantic Communications
+- Wireless Sensing / Wireless Positioning
+- Wireless XR Transmission / Wireless Metaverse / Semantic Communications 
 - Wireless AI / Deep Learning / Reinforcement Learning -->
 
 
 # 🔥 News
+- *2024.06*: &nbsp; 🎉 Defended my Ph.D. Thesis: “Research on Key Technologies for Edge-assisted XR Video Transmission and Analysis Optimization”.
 - *2024.05*: &nbsp; 🎉 Our work is accepted by IEEE Transactions on Vehicular Technology: Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints.
 - *2024.02*: &nbsp; 🎉 Our work is accepted by IEEE Transactions on Circuits and Systems for Video Technology: Quality of Experience Oriented Cross-Layer Optimization for Real-Time XR Video Transmission. 
 
