@@ -38,7 +38,8 @@ My research interests include,
 
 
 # 🔥 News
-- *2024.06*: &nbsp; 🎉 Defended my Ph.D. Thesis: “Research on Key Technologies for Edge-assisted XR Video Transmission and Analysis Optimization”.
+- *2024.07*: &nbsp; 🎉 Our work is accepted by IEEE Wireless Communication: Optimizing 5G-A Networks for Time-critical Applications: The Role of L4S.
+- *2024.06*: &nbsp; 🎉 Defended my Ph.D. Thesis: Research on Key Technologies for Edge-assisted XR Video Transmission and Analysis Optimization.
 - *2024.05*: &nbsp; 🎉 Our work is accepted by IEEE Transactions on Vehicular Technology: Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints.
 - *2024.02*: &nbsp; 🎉 Our work is accepted by IEEE Transactions on Circuits and Systems for Video Technology: Quality of Experience Oriented Cross-Layer Optimization for Real-Time XR Video Transmission. 
 
@@ -47,7 +48,7 @@ My research interests include,
 
 <!-- - **G. Pan**, "User-Centric QoE Optimization for XR Transmission in Cell-Free Networks." (Working Paper) -->
 [**Journal**]
-- **G. Pan**, S. Xu, and P. Jiang, "Optimizing 5G-A Networks for Time-critical Applications: The Role of L4S," IEEE Wireless Communications, 2024. (Revised)
+- **G. Pan**, S. Xu, and P. Jiang, "Optimizing 5G-A Networks for Time-critical Applications: The Role of L4S," IEEE Wireless Communications, 2024. (Accepted)
 - **G. Pan**, S. Xu, W. Xiong, Y. Sun, S. Zhang and X. Chen, "A Transformer-based QoE Prediction Method in RIC-assisted Real-time XR Transmission System," IEEE Transactions on Circuits and Systems for Video Technology, 2024. (Submitted)
 - **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Quality of Experience Oriented Cross-layer Optimization for Real-time XR Video Transmission," IEEE Transactions on Circuits and Systems for Video Technology, 2024. (Accepted)
 - **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints," IEEE Transactions on Vehicular Technology, 2024. (Accepted)
