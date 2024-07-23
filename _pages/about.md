@@ -36,9 +36,8 @@ My research interests include,
 - Wireless XR Transmission / Wireless Metaverse / Semantic Communications 
 - Wireless AI / Deep Learning / Reinforcement Learning -->
 
-
 # 🔥 News
-- *2024.07*: &nbsp; 🎉 Our work is accepted by IEEE Wireless Communication: Optimizing 5G-A Networks for Time-critical Applications: The Role of L4S.
+- *2024.07*: &nbsp; 🎉 Our paper, Optimizing 5G-A Networks for Time-critical Applications: The Role of L4S, which is collaborated with the Huawei Wireless X-Labs, is accepted by IEEE Wireless Communication.
 - *2024.06*: &nbsp; 🎉 Defended my Ph.D. Thesis: Research on Key Technologies for Edge-assisted XR Video Transmission and Analysis Optimization.
 - *2024.05*: &nbsp; 🎉 Our work is accepted by IEEE Transactions on Vehicular Technology: Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints.
 - *2024.02*: &nbsp; 🎉 Our work is accepted by IEEE Transactions on Circuits and Systems for Video Technology: Quality of Experience Oriented Cross-Layer Optimization for Real-Time XR Video Transmission. 
@@ -57,7 +56,7 @@ My research interests include,
 - J. Yu, H. Wen, **G. Pan**, S. Zhang, X. Chen and S. Xu, "Quality of Experience Oriented Adaptive Video Streaming for Edge Assisted Cellular Networks," IEEE Wireless Communications Letters, vol. 11, no. 11, pp. 2305-2309, Nov. 2022.
 - H. Zhang, **G. Pan**, S. Xu, S. Zhang and Z. Jiang, "Prediction-based Hybrid Slicing Framework for Service Level Agreement Guarantee in Mobility Scenarios: A Deep Learning Approach," China Communication, 2022. 
 - **G. Pan**, T. Wang, S. Zhang and S. Xu, "High Accurate Time-of-Arrival Estimation With Fine-Grained Feature Generation for Internet-of-Things Applications," IEEE Wireless Communications Letters, vol. 9, no. 11, pp. 1980-1984, Nov. 2020. 
-- Z Wang, G Pan, Y Sun, S Zhang, "An Interference-Aware Resource-Allocation Scheme for Non-Cooperative Multi-Cell Environment," Electronics, 2023, 12, 868.
+- Z Wang, **G Pan**, Y Sun, S Zhang, "An Interference-Aware Resource-Allocation Scheme for Non-Cooperative Multi-Cell Environment," Electronics, 2023, 12, 868.
 
 
 [**Conference**]
