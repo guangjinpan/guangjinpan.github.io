@@ -148,7 +148,7 @@ My research interests include,
   <img src="/assets/L4S-GCC.jpg" alt="Image2" width="285" height="240">
 </div>
 
-<video width="480" height="240" controls volume="0.5">
+<!-- <video width="480" height="240" controls volume="0.5">
   <source src="/assets/L4SVideo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -156,6 +156,6 @@ My research interests include,
   <img src="/assets/L4S.jpg" alt="Image 1" style="width: 25%;">
   <img src="/assets/L4S-GCC.jpg" alt="Image 2" style="width: 25%;">
 </div>
-<!-- <img src="/assets/L4S.jpg" alt="Image" width="300" height="200">
+<img src="/assets/L4S.jpg" alt="Image" width="300" height="200">
 <img src="/assets/L4S-GCC.jpg" alt="Image" width="300" height="200"> -->
 
