@@ -129,6 +129,12 @@ My research interests include,
   Your browser does not support the video tag.
 </video>
 
+- On-demand video bitrate adaptation based on wireless bandwidth prediction, Shanghai University.
+- <video width="480" height="240" controls volume="0.5">
+  <source src="/assets/DASHVideo" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 - Real-time video transmission optimization based on L4S, Shanghai University.
 <video width="480" height="240" controls volume="0.5">
   <source src="/assets/L4SVideo.mp4" type="video/mp4">
