@@ -122,9 +122,10 @@ My research interests include,
 - *2023.07 - 2023.10*, Bytedance, Real-time Audio-VideoTransmission Intern. Hangzhou, China.
 - *2022.07 - 2023.03*, Huawei, Wireless Communication Algorithm Intern. Shanghai, China.
 
-
+# 💻 Demo
+- Fusion positioning System, Shanghai University.
 <video width="320" height="240" controls>
-  <source src="/assets/L4Sdemo1.mp4" type="video/mp4">
+  <source src="/assets/FusionPositioning.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
