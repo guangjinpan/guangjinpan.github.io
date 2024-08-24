@@ -94,10 +94,11 @@ My research interests include,
 - *2023.08*, Several scholarships from SHU during undergrad/graduate schools.
 
 # 🎉 Research Projects
-- *2022 - 2024*, R18 Base Station Project Supporting RTBC.
+- *2022 - 2025*, Research and Development of R18 Base Stations Supporting Real-time Ultra-wideband Wireless Communication Capabilities.
+- *2022 - 2025*, AI-driven 6G Wireless Intelligent Air Interface Transmission Technology.
 - *2020 - 2023*, All-dimensional Database Construction and Data-driven Wireless Transmission Research.
 - *2020 - 2021*, China Mobile Research Institute Project: Wireless Network Element intelligent applications.
-- *2019 - 2022*, Key Technologies for Wireless Communication Systems Based on Baseband-RF Joint Optimization.
+- *2019 - 2022*, Research on Key Technologies for Next-generation Wireless Communication Systems Based on Baseband-RF Joint Optimization.
 - *2018 - 2019*, Research and development of R15 5G terminal test prototypes.
 
 
