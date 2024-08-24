@@ -145,7 +145,7 @@ My research interests include,
   Your browser does not support the video tag.
   </video>
   <img src="/assets/L4S.jpg" alt="Image1" width="320" height="240">
-  <img src="/assets/L4S-GCC.jpg" alt="Image2" width="360" height="240">
+  <img src="/assets/L4S-GCC.jpg" alt="Image2" width="285" height="240">
 </div>
 
 <video width="480" height="240" controls volume="0.5">
