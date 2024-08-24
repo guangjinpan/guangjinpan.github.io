@@ -135,4 +135,4 @@ My research interests include,
   Your browser does not support the video tag.
 </video>
 
-![Image1](/assets/L4S.jpg) ![Image2]((/assets/L4S.jpg)
+![Image1](/assets/L4S.jpg) ![Image2]((/assets/L4SGCC.jpg)
