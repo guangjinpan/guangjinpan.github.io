@@ -132,7 +132,7 @@ My research interests include,
 - On-demand video bitrate adaptation based on wireless bandwidth prediction, Shanghai University.
 <div style="display: flex; gap: 10px;">
   <video width="480" height="240" controls volume="0.5">
-    <source src="/assets/DASHVideo" type="video/mp4">
+    <source src="/assets/DASHVideo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <img src="/assets/OAI-RAN.jpg" alt="Image" width="560" height="240">
