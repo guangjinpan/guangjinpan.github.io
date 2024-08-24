@@ -134,7 +134,7 @@ My research interests include,
   <source src="/assets/DASHVideo" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-<img src="/assets/OAI-RAN" alt="Image" width="360" height="240">
+<img src="/assets/OAI-RAN.jpg" alt="Image" width="360" height="240">
 
 - Real-time video transmission optimization based on L4S, Shanghai University.
 <video width="480" height="240" controls volume="0.5">
