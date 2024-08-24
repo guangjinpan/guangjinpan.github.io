@@ -124,18 +124,18 @@ My research interests include,
 
 # 💻 Demos
 - Multimodal Fusion positioning System, Shanghai University.
-<video width="600" height="250" controls volume="0.5">
+<video width="480" height="240" controls volume="0.5">
   <source src="/assets/FusionPositioning.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 - Real-time video transmission optimization based on L4S, Shanghai University.
-<video width="600" height="250" controls volume="0.5">
+<video width="480" height="240" controls volume="0.5">
   <source src="/assets/L4SVideo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <div style="display: flex; gap: 10px;">
-  <img src="/assets/L4S.jpg" alt="Image 1" style="width: 45%;">
-  <img src="/assets/L4S-GCC.jpg" alt="Image 2" style="width: 45%;">
+  <img src="/assets/L4S.jpg" alt="Image 1" style="width: 25%;">
+  <img src="/assets/L4S-GCC.jpg" alt="Image 2" style="width: 25%;">
 </div>
 <!-- <img src="/assets/L4S.jpg" alt="Image" width="300" height="200">
 <img src="/assets/L4S-GCC.jpg" alt="Image" width="300" height="200"> -->
