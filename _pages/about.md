@@ -134,5 +134,5 @@ My research interests include,
   <source src="/assets/L4SVideo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+<img src="/assets/L4S.jpg" alt="Image" width="300" height="200"> <img src="/assets/L4S-GCC.jpg" alt="Image" width="300" height="200">
 
-![Image1](/assets/L4S.jpg) ![Image2]((/assets/L4SGCC.jpg)
