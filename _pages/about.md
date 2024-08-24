@@ -130,10 +130,14 @@ My research interests include,
 </video>
 
 - Real-time video transmission optimization based on L4S
-<video width="640" height="480" controls>
+<video width="480" height="300" controls>
   <source src="/assets/L4SVideo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-<img src="/assets/L4S.jpg" alt="Image" width="300" height="200">
-<img src="/assets/L4S-GCC.jpg" alt="Image" width="300" height="200">
+<div style="display: flex; gap: 10px;">
+  <img src="/assets/L4S.jpg" alt="Image 1" style="width: 45%;">
+  <img src="/assets/L4S-GCC.jpg" alt="Image 2" style="width: 45%;">
+</div>
+<!-- <img src="/assets/L4S.jpg" alt="Image" width="300" height="200">
+<img src="/assets/L4S-GCC.jpg" alt="Image" width="300" height="200"> -->
 
