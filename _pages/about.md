@@ -129,7 +129,7 @@ My research interests include,
   Your browser does not support the video tag.
 </video>
 - Real-time video transmission optimization based on L4S, Shanghai University.
-<video width="600" height="250" controls controls volume="0.5">
+<video width="600" height="250" controls volume="0.5">
   <source src="/assets/L4SVideo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
