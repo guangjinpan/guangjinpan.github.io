@@ -86,12 +86,18 @@ My research interests include,
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
-- *2023.11*, The 1st WiFi Sensing Contest. Award: Third Prize.
-- *2023.07*, The 4th Wireless Big Data Competition - Multi-Objective Beamforming Optimization. Award: Third Prize.
-- *2022.09*, The 3rd Wireless Big Data Competition - 5G Massive MIMO Optimization. Award: Second Prize (Third Place).
-- *2021.07*, The 2nd Wireless Big Data Competition - Wireless Link Quality Prediction. Award: Second Priz (Runner-up).  
-- *2020.09*, The 1st Wireless Big Data Competition - Cross-Layer Intelligent QoE Optimization. Award: Second Prize (Runner-up).  
-- *2023.08*, Several scholarships from SHU during undergrad/graduate schools.
+- *2024.08* 2024 Wireless Algorithm Competition - AI-driven Wireless positioning, Champion.
+- *2023.11* 1st WiFi Sensing Contest - WiFi Detection & Localization, Third Prize.
+- *2023.07* 4th Wireless Big Data Competition - Multi-Objective Beamforming Optimization, Third Prize.
+- *2023.06* 2023 Wireless Algorithm Competition - Breath Detection Based on WiFi Sensing, Third Prize.
+- *2022.07* 3rd Wireless Big Data Competition - 5G Massive MIMO Optimization, Third Place.
+- *2022.06* 2022 Wireless Algorithm Competition - Wireless Resource Management for URLLC, Third Place.
+- *2021.07* 2nd Wireless Big Data Competition - Wireless Link Quality Prediction, Second Place.
+- *2020.09* 1st Wireless Big Data Competition - Cross-Layer Intelligent QoE Optimization, Second Place.
+- *2021-2022* Intelligent Base Scholarship, by Huawei.
+- *2020.11* Quest Scholarship, by Shanghai University.
+- *2014-2024*, Several scholarships, by Shanghai University.
+
 
 # 🎉 Research Projects
 - *2022 - 2025*, **Key Contributor**, Research and Development of R18 Base Stations Supporting Real-time Ultra-wideband Wireless Communication Capabilities.
@@ -103,11 +109,12 @@ My research interests include,
 
 
 # 📖 Educations
-- *2019.06 - Present*, Ph.D. candidate in Communication and Information Systems, Shanghai University.
+- *2019.08 - 2024.07*, Ph.D. in Communication and Information Systems, Shanghai University.
    Advisor: Prof. Shugong Xu (IEEE Fellow). 
-- *2018.09 - 2020.06*, M.E. in Information and Communication Engineering. Shanghai University. 
+- *2018.08 - 2020.07*, M.S. in Information and Communication Engineering. Shanghai University. 
    Advisor: Prof. Shugong Xu (IEEE Fellow).
-- *2014.09 - 2018.06*, B.E. in Communication Engineering. Shanghai University.  
+- *2014.08 - 2018.07*, B.S. in Communication Engineering. Shanghai University.
+   Advisor: Prof. Shugong Xu (IEEE Fellow).
 
 # 💬 Reviewing Experiences
 - *2023.09*, TPC Member, Globecom workshop 2023 - CommCIN. 
