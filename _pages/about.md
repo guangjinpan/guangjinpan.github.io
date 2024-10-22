@@ -16,9 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-Welcome to my homepage 🎉🎉. I received my B.E. degree in 2018 and my Ph.D. degree in 2024, from the School of Communication and Information Engineering, Shanghai University in China. My advisor is Prof. Shugong Xu from GREAT Lab. I would like to express my sincere gratitude to Prof. Shugong Xu for his guidance in my research, and to Prof. Shunqing Zhang for his academic mentorship.
-
-I will be heading to Chalmers University of Technology for postdoctoral research work in the field of AI-enabled wireless positioning and sensing. I welcome researchers to exchange ideas and collaborate with me.
+Welcome to my homepage 🎉🎉. I received my B.E. degree in 2018 and my Ph.D. degree in 2024, from the School of Communication and Information Engineering, Shanghai University in China. My advisor is Prof. Shugong Xu from GREAT Lab. I would like to express my sincere gratitude to Prof. Shugong Xu for his guidance in my research, and to Prof. Shunqing Zhang for his academic mentorship. I am currently a postdoctoral researcher at Chalmers University of Technology, working with Prof. Henk on research related to AI-driven wireless localization, sensing, and communication. I welcome researchers to exchange ideas and collaborate with me.
 
 My research interests include,
 - Wireless Sensing / Wireless Positioning
