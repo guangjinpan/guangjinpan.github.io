@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Guangjin Pan"
   avatar           : "images/PGJ.jpg"
-  bio              : "Ph.D Candidate"
-  location         : "Shanghai, China"
+  bio              : "Postdoctoral Researcher"
+  location         : "Gothenburg, Sweden"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Guangjin_pan@shu.edu.cn"
+  email            : "guangjin@chalmers.se"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
