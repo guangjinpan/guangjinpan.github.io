@@ -45,9 +45,9 @@ My research interests include,
 
 <!-- - **G. Pan**, "User-Centric QoE Optimization for XR Transmission in Cell-Free Networks." (Working Paper) -->
 [**Journal**]
-- **G. Pan**, S. Xu, and P. Jiang, "Optimizing 5G-A Networks for Time-critical Applications: The Role of L4S," IEEE Wireless Communications, 2024. (Accepted)
 - **G. Pan**, S. Xu, W. Xiong, Y. Sun, S. Zhang and X. Chen, "A Transformer-based QoE Prediction Method in RIC-assisted Real-time XR Transmission System," IEEE Transactions on Circuits and Systems for Video Technology, 2024. (Submitted)
-- **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints," IEEE Transactions on Vehicular Technology, 2024. (Accepted)
+- **G. Pan**, S. Xu, and P. Jiang, "Optimizing 5G-A Networks for Time-critical Applications: The Role of L4S," IEEE Wireless Communications, 2024. (Accepted)
+- **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints," IEEE Transactions on Vehicular Technology, vol. 73, no. 10, pp. 15883-15888, Oct. 2024
 - **G. Pan**, S. Xu, S. Zhang, X. Chen and Y. Sun, "Quality of Experience Oriented Cross-Layer Optimization for Real-Time XR Video Transmission," in IEEE Transactions on Circuits and Systems for Video Technology, vol. 34, no. 8, pp. 7742-7755, Aug. 2024.
 - **G. Pan**, H. Zhang, S. Xu, S. Zhang and X. Chen, "Joint Optimization of Video-Based AI Inference Tasks in MEC-Assisted Augmented Reality Systems," IEEE Transactions on Cognitive Communications and Networking, vol. 9, no. 2, pp. 479-493, April 2023.
 - **G. Pan**, T. Wang, S. Zhang and S. Xu, "High Accurate Time-of-Arrival Estimation With Fine-Grained Feature Generation for Internet-of-Things Applications," IEEE Wireless Communications Letters, vol. 9, no. 11, pp. 1980-1984, Nov. 2020. 
