@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-Welcome to my homepage 🎉🎉. I received my B.E. degree in 2018 and my Ph.D. degree in 2024, from the School of Communication and Information Engineering, Shanghai University in China. My advisor is Prof. Shugong Xu from GREAT Lab. I would like to express my sincere gratitude to Prof. Shugong Xu for his guidance in my research, and to Prof. Shunqing Zhang for his academic mentorship. I am currently a postdoctoral researcher at Chalmers University of Technology, working with Prof. Henk on research related to AI-driven wireless localization, sensing, and communication. I welcome researchers to exchange ideas and collaborate with me.
+Welcome to my homepage 🎉🎉. I received my B.E. degree in 2018 and my Ph.D. degree in 2024, from the School of Communication and Information Engineering, Shanghai University in China. My advisor is Prof. Shugong Xu from GREAT Lab. I would like to express my sincere gratitude to Prof. Shugong Xu for his guidance in my research, and to Prof. Shunqing Zhang for his academic mentorship. Currently, I am a postdoctoral researcher at Chalmers University of Technology, working with Prof. Henk Wymeersch on AI-driven wireless localization, sensing, and communication research. I am eager to exchange ideas and collaborate with researchers in various fields such as wireless communication, positioning and sensing, and AI.
 
 My research interests include,
 - Wireless Sensing / Wireless Positioning
@@ -124,7 +124,7 @@ My research interests include,
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
-# 💻 Internships
+# :crystal_ball: Internships
 - *2023.07 - 2023.10*, Bytedance, Real-time Audio-VideoTransmission Intern. Hangzhou, China.
 - *2022.07 - 2023.03*, Huawei, Wireless Communication Algorithm Intern. Shanghai, China.
 
