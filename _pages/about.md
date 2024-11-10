@@ -129,7 +129,7 @@ My research interests include,
 - *2022.07 - 2023.03*, Huawei, Wireless Communication Algorithm Intern. Shanghai, China.
 
 # 💻 Demos
-- Multimodal Fusion positioning System, Shanghai University.
+- Multimodel Fusion Positioning System, Shanghai University.
 <video width="480" height="240" controls volume="0.5">
   <source src="/assets/FusionPositioning.mp4" type="video/mp4">
 </video>
