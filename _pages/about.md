@@ -45,6 +45,7 @@ My research interests include,
 
 <!-- - **G. Pan**, "User-Centric QoE Optimization for XR Transmission in Cell-Free Networks." (Working Paper) -->
 [**Journal**]
+- Y. Sun, J. Qiu, **G. Pan\***, S. Xu et al., “Energy Optimization of Multi-Task DNN Inference in MEC-Assisted XR Devices: A Lyapunov-Guided Reinforcement Learning Approach,” \textit{IEEE Internet of Things Journal}, 2025. (Accepted)
 - **G. Pan**, S. Xu, W. Xiong, Y. Sun, S. Zhang and X. Chen, "A Transformer-based QoE Prediction Method in RIC-assisted Real-time XR Transmission System," IEEE Transactions on Circuits and Systems for Video Technology, 2024. (Submitted)
 - **G. Pan**, S. Xu, and P. Jiang, "Optimizing 5G-A Networks for Time-critical Applications: The Role of L4S," IEEE Wireless Communications, 2024. (Accepted)
 - **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints," IEEE Transactions on Vehicular Technology, vol. 73, no. 10, pp. 15883-15888, Oct. 2024
@@ -84,6 +85,7 @@ My research interests include,
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
+- *2024.11* 2024 Huawei Sweden Hackathon 2024 - Channel Charting, Champion.
 - *2024.08* 2024 Wireless Algorithm Competition - AI-driven Wireless positioning, Champion.
 - *2023.11* 1st WiFi Sensing Contest - WiFi Detection & Localization, Third Prize.
 - *2023.07* 4th Wireless Big Data Competition - Multi-Objective Beamforming Optimization, Third Prize.
@@ -129,7 +131,7 @@ My research interests include,
 - *2022.07 - 2023.03*, Huawei, Wireless Communication Algorithm Intern. Shanghai, China.
 
 # 💻 Demos
-- Multimodel Fusion Positioning System, Shanghai University.
+- Multimodal Fusion Positioning System, Shanghai University.
 <video width="480" height="240" controls volume="0.5">
   <source src="/assets/FusionPositioning.mp4" type="video/mp4">
 </video>
