@@ -35,6 +35,8 @@ My research interests include,
 - Wireless AI / Deep Learning / Reinforcement Learning -->
 
 # 🔥 News
+- *2025.03*: &nbsp; 🎉 Our Chalmers Area-of-Advance Transport Postdoc Project got funded (2,000,000 SEK).
+- *2025.02*: &nbsp; 🎉 Our work is accepted by IEEE Internet of Things Journal: Energy Optimization of Multi-Task DNN Inference in MEC-Assisted XR Devices: A Lyapunov-Guided Reinforcement Learning Approach.
 - *2024.07*: &nbsp; 🎉 Our paper, Optimizing 5G-A Networks for Time-critical Applications: The Role of L4S, which is collaborated with the Huawei Wireless X-Labs, is accepted by IEEE Wireless Communication.
 - *2024.06*: &nbsp; 🎉 Defended my Ph.D. Thesis: Research on Key Technologies for Edge-assisted XR Video Transmission and Analysis Optimization.
 - *2024.05*: &nbsp; 🎉 Our work is accepted by IEEE Transactions on Vehicular Technology: Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints.
@@ -47,7 +49,7 @@ My research interests include,
 [**Journal**]
 - Y. Sun, J. Qiu, **G. Pan\***, S. Xu et al., “Energy Optimization of Multi-Task DNN Inference in MEC-Assisted XR Devices: A Lyapunov-Guided Reinforcement Learning Approach,” IEEE Internet of Things Journal, 2025. (Accepted)
 - Y. Sun, W. Xiong, **G. Pan\***, S. Xu et al., “QoE Prediction in RIC-assisted Wireless Real-time Video Transmission System with Transformer,” IEEE Transactions on Vehicular Technology, 2024. (Major Revision) 
-- **G. Pan**, S. Xu, and P. Jiang, "Optimizing 5G-A Networks for Time-critical Applications: The Role of L4S," IEEE Wireless Communications, 2024. (Accepted)
+- **G. Pan**, S. Xu, and P. Jiang, "Optimizing 5G-A Networks for Time-critical Applications: The Role of L4S," IEEE Wireless Communications, vol. 32, no. 2, pp. 230-237, April 2025.
 - **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints," IEEE Transactions on Vehicular Technology, vol. 73, no. 10, pp. 15883-15888, Oct. 2024
 - **G. Pan**, S. Xu, S. Zhang, X. Chen and Y. Sun, "Quality of Experience Oriented Cross-Layer Optimization for Real-Time XR Video Transmission," in IEEE Transactions on Circuits and Systems for Video Technology, vol. 34, no. 8, pp. 7742-7755, Aug. 2024.
 - **G. Pan**, H. Zhang, S. Xu, S. Zhang and X. Chen, "Joint Optimization of Video-Based AI Inference Tasks in MEC-Assisted Augmented Reality Systems," IEEE Transactions on Cognitive Communications and Networking, vol. 9, no. 2, pp. 479-493, April 2023.
@@ -119,10 +121,10 @@ My research interests include,
    Advisor: Prof. Shugong Xu (IEEE Fellow).
 
 # 💬 Reviewing Experiences
+- *2025.02*, TPC Member, ICC workshop 2025 - ETASN. 
 - *2023.09*, TPC Member, Globecom workshop 2023 - CommCIN. 
 - *2022.03*, TPC Member, ICC workshop 2022 - Intelligent-CRAN.
-- Reviewer for IEEE Internet of Things Journal, IEEE Wireless Communications Letters, IEEE Transactions on Vehicular Technology, Globecom, ICC, et al. 
-
+- Reviewer for IEEE JSAC, IEEE TWC, IEEE TCOM, IEEE TCSVT, IEEE TVT, IEEE IoTJ, Globecom, ICC, et al. 
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
