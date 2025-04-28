@@ -49,7 +49,7 @@ My research interests include,
 
 <!-- - **G. Pan**, "User-Centric QoE Optimization for XR Transmission in Cell-Free Networks." (Working Paper) -->
 [**Journal**]
-- J. Li, S. Zhang, T. Yu, **G. Pan**, S. Xu et al., “A Unified QoS-Aware Multiplexing Framework for Next Generation Immersive Communication with Legacy Wireless Applications,” IEEE Internet of Things Journal, 2025. (Accepted)
+- J. Li, S. Zhang, T. Yu, **G. Pan** et al., “A Unified QoS-Aware Multiplexing Framework for Next Generation Immersive Communication with Legacy Wireless Applications,” IEEE Internet of Things Journal, 2025. (Accepted)
 - Y. Sun, W. Xiong, **G. Pan\***, S. Xu et al., “QoE Prediction in RIC-assisted Wireless Real-time Video Transmission System with Transformer,” IEEE Transactions on Vehicular Technology, 2025. (Accepted)
 - Y. Sun, J. Qiu, **G. Pan\***, S. Xu et al., “Energy Optimization of Multi-Task DNN Inference in MEC-Assisted XR Devices: A Lyapunov-Guided Reinforcement Learning Approach,” IEEE Internet of Things Journal, 2025. (Accepted)
 - **G. Pan**, S. Xu, and P. Jiang, "Optimizing 5G-A Networks for Time-critical Applications: The Role of L4S," IEEE Wireless Communications, vol. 32, no. 2, pp. 230-237, April 2025.
