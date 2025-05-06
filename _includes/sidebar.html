@@ -10,8 +10,13 @@
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
     {% endfor %}
   {% endif %}
+  
+    <div class="sidebar-map" style="display: none !important;">
+      <script
+        type="text/javascript" id="clustrmaps"
+        src="//clustrmaps.com/map_v2.js?d=0--LHNojUaMy0lg0zjvozOVZREEjCff0XopOxfMlw-0&cl=ffffff&w=a">
+      </script>
+    </div>
     
-
-    
-  </div>
+   </div>
 {% endif %}
