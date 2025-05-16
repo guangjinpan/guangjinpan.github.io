@@ -16,12 +16,14 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-Welcome to my homepage 🎉🎉. I received my B.E. degree in 2018 and my Ph.D. degree in 2024, from the School of Communication and Information Engineering, Shanghai University in China. My advisor is Prof. Shugong Xu from GREAT Lab. I would like to express my sincere gratitude to Prof. Shugong Xu for his guidance in my research, and to Prof. Shunqing Zhang for his academic mentorship. Currently, I am a postdoctoral researcher at Chalmers University of Technology, working with Prof. Henk Wymeersch on AI-driven wireless localization, sensing, and communication research. I am eager to exchange ideas and collaborate with researchers in various fields such as wireless communication, positioning and sensing, and AI.
+Welcome to my homepage 🎉🎉. I received my B.E. degree in 2018 and my Ph.D. degree in 2024, from the School of Communication and Information Engineering, Shanghai University in China. My supervisor is Prof. Shugong Xu from GREAT Lab. I would like to express my sincere gratitude to Prof. Shugong Xu for his guidance in my research, and to Prof. Shunqing Zhang for his academic mentorship. Currently, I am a postdoctoral researcher at Chalmers University of Technology, working with Prof. Henk Wymeersch on AI-driven wireless localization, sensing, and communication research. I am eager to exchange ideas and collaborate with researchers in various fields such as wireless communication, positioning and sensing, and AI.
 
 My research interests include,
 - Wireless Sensing / Wireless Positioning
 - Wireless XR Transmission / Wireless Metaverse / Semantic Communications 
-- Wireless AI / Deep Learning / Reinforcement Learning
+- Wireless AI / Large AI Model
+
+You can find my curated paper list for wireless large AI models here: [Wireless-LAM](https://github.com/guangjinpan/Wireless-Large-Model) (continuously updated).
 
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
