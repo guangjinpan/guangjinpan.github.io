@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /demos/
-title: demos
-description: Demos for some of my works.
+title: Demonstrations
+description: Demonstrations for some of my works.
 nav: true
 nav_order: 4
 ---
