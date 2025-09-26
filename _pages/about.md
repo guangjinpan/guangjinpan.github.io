@@ -33,7 +33,9 @@ My research interests include,
 - Wireless AI / Large AI Model
 - Wireless Media Network
 
-You can find my curated paper list for wireless large AI models here: [Wireless-LAM](https://github.com/guangjinpan/Wireless-Large-Model) (continuously updated).
+🤝 Looking forward to collaboration: If you are interested in AI-driven wireless Localization/Sensing (based on foundation models, active inference, world models, AI-driven closed-loop control) but don’t yet have a concrete idea, feel free to reach out — we are very open to collaborations!
+
+<!-- You can find my curated paper list for wireless large AI models here: [Wireless-LAM](https://github.com/guangjinpan/Wireless-Large-Model) (continuously updated). -->
 
 
 {% include clustrmap.html %}
