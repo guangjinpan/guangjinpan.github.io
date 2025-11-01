@@ -99,7 +99,7 @@ ninja.data = [{
           title: '🎉 One paper is accepted by Globecom Workshop 2025, [pdf] 📢 New preprint:...',
           description: "",
           section: "News",},{id: "news-our-paper-scheduling-and-securing-asynchronous-federated-learning-through-cooperative-jamming-has-been-accepted-by-ieee-transactions-on-cognitive-communications-and-networking-with-fengmei-ni-zheer-zhou-wei-ni-xiaojing-chen-guangjin-pan-yanzan-sun-shunqing-zhang-amp-amp-abbas-jamalipour",
-          title: '📢 Our paper “Scheduling and Securing Asynchronous Federated Learning Through Cooperative Jamming” has...',
+          title: '🎉 Our paper “Scheduling and Securing Asynchronous Federated Learning Through Cooperative Jamming” has...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
