@@ -15,13 +15,13 @@ nav_order: 2
 
 <div class="publications">
 
-<h2>Semantic Communication for Multimedia Applications</h2>
-{% bibliography --group_by none --query @*[category="Semantic Communication for Multimedia Applications"]* %}
+<h2>AI for Communication</h2>
+{% bibliography --group_by none --query @*[category=SC-XR]* %}
 
-<h2>Semantic Communication for ISAC systems</h2>
-{% bibliography --group_by none --query @*[category="Semantic Communication for ISAC systems"]* %}
+<h2>AI for sensing</h2>
+{% bibliography --group_by none --query @*[category=SC-ISAC]* %}
 
-<h2>Semantic Communication for Closed-loop Communication–Sensing–Control Systems</h2>
-{% bibliography --group_by none --query @*[category="Semantic Communication for Closed-loop Communication–Sensing–Control Systems"]* %}
+<h2>AI for Closed-loop Communication–Sensing–Control Systems</h2>
+{% bibliography --group_by none --query @*[category=SC-ISCCC]* %}
 
 </div>
