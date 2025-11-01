@@ -15,6 +15,13 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+<h2>Semantic Communication for Multimedia Applications</h2>
+{% bibliography --group_by none --query @*[category="Semantic Communication for Multimedia Applications"]* %}
+
+<h2>Semantic Communication for ISAC systems</h2>
+{% bibliography --group_by none --query @*[category="Semantic Communication for ISAC systems"]* %}
+
+<h2>Semantic Communication for Closed-loop Communication–Sensing–Control Systems</h2>
+{% bibliography --group_by none --query @*[category="Semantic Communication for Closed-loop Communication–Sensing–Control Systems"]* %}
 
 </div>
