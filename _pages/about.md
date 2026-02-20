@@ -32,6 +32,19 @@ My research interests include,
 You can find my curated paper list for wireless large AI models here: [Wireless-LAM](https://github.com/guangjinpan/Wireless-Large-Model) (continuously updated).
 
 # 🔥 News
+<div class="news-scroll" markdown="1">
+
+- *2025.09*: &nbsp;  One paper is accepted by **Globecom Workshop 2025**, [[pdf]](https://arxiv.org/abs/2505.01780)
+
+- *2025.09*: &nbsp;  New preprint: *"Active Inference Framework for Closed-Loop Sensing, Communication, and Control in UAV Systems"* — first paper to introduce Active Inference into Closed-Loop ISAC systems (with Guangjin Pan, Liping Bai, Zhuojun Tian, Hui Chen, Mehdi Bennis & Henk Wymeersch) [[pdf]](https://arxiv.org/abs/2509.14201)
+
+
+- *2025.08*: &nbsp; 🎉 Our paper "Enhanced Fingerprint Cellular Positioning With Practical Imperfections: Deep Learning-Based Approaches" has been accepted by IEEE Wireless Communications (with Shugong Xu, Jun Jiang, Wenjun Yu, Yilin Gao, Guangjin Pan, Shiyi Mu, Zhiqi Ai, Yuan Gao, Peigang Jiang & Cheng-Xiang Wang).
+
+- *2025.08*: &nbsp; 🎉 One paper is accepted by Globecom 2025.
+
+- *2025.07*: &nbsp; 🎉 One paper is accepted by ICCC 2025.
+
 - *2025.04*: &nbsp; 🎉 Our work is accepted by IEEE Internet of Things Journal: A Unified QoS-Aware Multiplexing Framework for Next Generation Immersive Communication with Legacy Wireless Applications.
 - *2025.04*: &nbsp; 🎉 Our work is accepted by IEEE Transactions on Vehicular Technology: QoE Prediction in RIC-assisted Wireless Real-time Video Transmission System with Transformer.
 - *2025.03*: &nbsp; 🎉 Our Chalmers Area-of-Advance Transport Postdoc Project got funded (2,000,000 SEK).
@@ -41,5 +54,6 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 - *2024.05*: &nbsp; 🎉 Our work is accepted by IEEE Transactions on Vehicular Technology: Quality of Experience Optimization for Real-time XR Video Transmission with Energy Constraints.
 - *2024.02*: &nbsp; 🎉 Our work is accepted by IEEE Transactions on Circuits and Systems for Video Technology: Quality of Experience Oriented Cross-Layer Optimization for Real-Time XR Video Transmission. 
 
+</div>
 
 

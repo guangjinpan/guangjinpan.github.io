@@ -118,6 +118,12 @@
   }
 }
 
+.page__content .news-scroll {
+  max-height: 200px;
+  overflow-y: auto;
+  padding-right: 0.5em;
+}
+
 .page__hero {
   position: relative;
   margin-bottom: 2em;
