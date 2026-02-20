@@ -34,6 +34,18 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 # 🔥 News
 <div class="news-scroll" markdown="1">
 
+- *2025.12*: &nbsp; 🎉 Our paper [*"Sidelink Positioning: Standardization Advancements, Challenges and Opportunities"*](https://arxiv.org/abs/2512.24803) has been accepted by **IEEE Communications Magazine** (Authors: Yuan Gao, Guangjin Pan, Zhiyong Zhong, Zhengyu Jin, Yichen Hu, Yifei Jin, Shugong Xu).  
+
+- *2025.12*: &nbsp; 🎉 Our paper [*"AI-driven wireless positioning: Fundamentals, standards, state-of-the-art, and challenges"*](https://ieeexplore.ieee.org/document/11315904) has been accepted by **IEEE Communications Surveys and Tutorials** (Authors: Guangjin Pan, Yuan Gao, Yilin Gao, Wenjun Yu, Zhiyong Zhong, Xiaoyu Yang, Xinyu Guo, Shugong Xu).
+
+- *2025.12*: &nbsp; 🎉 Our paper [*"A Multi-task Disentanglement Framework Guided by Pedestrian Attributes for Video-Based Clothes-Changing Person Re-Identification in Internet of Things"*](https://ieeexplore.ieee.org/document/11301714) has been accepted by **IEEE Internet of Things Journal** (Authors: Hengjie Lu, Guangjin Pan, Yilin Gao, and Shugong Xu).
+
+- *2025.12*: &nbsp; 🎉 I am honored and delighted to receive the IEEE Communications Society 2025 [**Exemplary Reviewer Award**](/assets/img/OJCOMS_Reviewer.png) for my service to the IEEE Open Journal of the Communications Society.
+
+
+- *2025.10*: &nbsp; 🎉 Our paper [*"Scheduling and Securing Asynchronous Federated Learning Through Cooperative Jamming"*](https://ieeexplore.ieee.org/document/11207714) has been accepted by **IEEE Transactions on Cognitive Communications and Networking** (with Fengmei Ni, Zheer Zhou, Wei Ni, Xiaojing Chen, Guangjin Pan, Yanzan Sun, Shunqing Zhang & Abbas Jamalipour).
+
+
 - *2025.09*: &nbsp;  One paper is accepted by **Globecom Workshop 2025**, [[pdf]](https://arxiv.org/abs/2505.01780)
 
 - *2025.09*: &nbsp;  New preprint: *"Active Inference Framework for Closed-Loop Sensing, Communication, and Control in UAV Systems"* — first paper to introduce Active Inference into Closed-Loop ISAC systems (with Guangjin Pan, Liping Bai, Zhuojun Tian, Hui Chen, Mehdi Bennis & Henk Wymeersch) [[pdf]](https://arxiv.org/abs/2509.14201)
