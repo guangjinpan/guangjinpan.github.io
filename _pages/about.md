@@ -46,9 +46,9 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 - *2025.10*: &nbsp; 🎉 Our paper [*"Scheduling and Securing Asynchronous Federated Learning Through Cooperative Jamming"*](https://ieeexplore.ieee.org/document/11207714) has been accepted by **IEEE Transactions on Cognitive Communications and Networking** (with Fengmei Ni, Zheer Zhou, Wei Ni, Xiaojing Chen, Guangjin Pan, Yanzan Sun, Shunqing Zhang & Abbas Jamalipour).
 
 
-- *2025.09*: &nbsp;  One paper is accepted by **Globecom Workshop 2025**, [[pdf]](https://arxiv.org/abs/2505.01780)
+- *2025.09*: &nbsp;  One paper is accepted by **Globecom Workshop 2025** [[pdf]](https://arxiv.org/abs/2505.01780)
 
-- *2025.09*: &nbsp;  New preprint: *"Active Inference Framework for Closed-Loop Sensing, Communication, and Control in UAV Systems"* — first paper to introduce Active Inference into Closed-Loop ISAC systems (with Guangjin Pan, Liping Bai, Zhuojun Tian, Hui Chen, Mehdi Bennis & Henk Wymeersch) [[pdf]](https://arxiv.org/abs/2509.14201)
+- *2025.09*: &nbsp;  New preprint: [*"Active Inference Framework for Closed-Loop Sensing, Communication, and Control in UAV Systems"*](https://arxiv.org/abs/2509.14201) — first paper to introduce Active Inference into Closed-Loop ISAC systems (with Guangjin Pan, Liping Bai, Zhuojun Tian, Hui Chen, Mehdi Bennis & Henk Wymeersch)
 
 
 - *2025.08*: &nbsp; 🎉 Our paper "Enhanced Fingerprint Cellular Positioning With Practical Imperfections: Deep Learning-Based Approaches" has been accepted by IEEE Wireless Communications (with Shugong Xu, Jun Jiang, Wenjun Yu, Yilin Gao, Guangjin Pan, Shiyi Mu, Zhiqi Ai, Yuan Gao, Peigang Jiang & Cheng-Xiang Wang).
