@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
   var sections = document.querySelectorAll(".content-section[data-section]");
   if (!sections.length) return;
   var params = new URLSearchParams(window.location.search);
-  var current = params.get("section") || "about-me";
+  var current = params.get("section");
+  if (!current) return;
   sections.forEach(function(section) {
     var name = section.getAttribute("data-section");
     if (name === current) {
