@@ -15,7 +15,7 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<div class="content-section" data-section="about-me">
+<div class="content-section" data-section="about-me" markdown="1">
 <span class='anchor' id='about-me'></span>
 Welcome to my homepage 🎉🎉. I received my B.E. degree in 2018 and my Ph.D. degree in 2024, from the School of Communication and Information Engineering, Shanghai University in China. My supervisor is Prof. Shugong Xu from GREAT Lab. I would like to express my sincere gratitude to Prof. Shugong Xu for his guidance in my research, and to Prof. Shunqing Zhang for his academic mentorship. Currently, I am a postdoctoral researcher at Chalmers University of Technology, working with Prof. Henk Wymeersch on AI-driven wireless localization, sensing, and communication research. I am eager to exchange ideas and collaborate with researchers in various fields such as wireless communication, positioning and sensing, and AI.
 
@@ -38,7 +38,7 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 - Wireless XR Transmission / Wireless Metaverse / Semantic Communications 
 - Wireless AI / Deep Learning / Reinforcement Learning -->
 
-<div class="content-section" data-section="news">
+<div class="content-section" data-section="news" markdown="1">
 # 🔥 News
 - *2025.04*: &nbsp; 🎉 Our work is accepted by IEEE Internet of Things Journal: A Unified QoS-Aware Multiplexing Framework for Next Generation Immersive Communication with Legacy Wireless Applications.
 - *2025.04*: &nbsp; 🎉 Our work is accepted by IEEE Transactions on Vehicular Technology: QoE Prediction in RIC-assisted Wireless Real-time Video Transmission System with Transformer.
@@ -51,7 +51,7 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 </div>
 
 
-<div class="content-section" data-section="publications">
+<div class="content-section" data-section="publications" markdown="1">
 # 📝 Publications 
 
 <!-- - **G. Pan**, "User-Centric QoE Optimization for XR Transmission in Cell-Free Networks." (Working Paper) -->
@@ -98,7 +98,7 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
-<div class="content-section" data-section="honors-and-awards">
+<div class="content-section" data-section="honors-and-awards" markdown="1">
 # 🎖 Honors and Awards
 - *2024.11* 2024 Huawei Sweden Hackathon 2024 - Channel Charting, Champion.
 - *2024.08* 2024 Wireless Algorithm Competition - AI-driven Wireless positioning, Champion.
@@ -115,7 +115,7 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 </div>
 
 
-<div class="content-section" data-section="research-projects">
+<div class="content-section" data-section="research-projects" markdown="1">
 # 🎉 Research Projects
 - *2022 - 2025*, **Key Contributor**,Research and Development of R18 BSs Supporting Real-Time Broadband Communication Capabilities.
 - *2022 - 2025*, **Participant**, AI-driven 6G Wireless Intelligent Air Interface Transmission Technology.
@@ -126,7 +126,7 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 </div>
 
 
-<div class="content-section" data-section="educations">
+<div class="content-section" data-section="educations" markdown="1">
 # 📖 Educations
 - *2019.08 - 2024.07*, Ph.D. in Communication and Information Systems, Shanghai University.
    Advisor: Prof. Shugong Xu (IEEE Fellow). 
@@ -136,7 +136,7 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
    Advisor: Prof. Shugong Xu (IEEE Fellow).
 </div>
 
-<div class="content-section" data-section="reviewing-experiences">
+<div class="content-section" data-section="reviewing-experiences" markdown="1">
 # 💬 Reviewing Experiences
 - *2025.02*, TPC Member, ICC workshop 2025 - ETASN. 
 - *2023.09*, TPC Member, Globecom workshop 2023 - CommCIN. 
@@ -148,13 +148,13 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
-<div class="content-section" data-section="internships">
+<div class="content-section" data-section="internships" markdown="1">
 # 🔮 Internships
 - *2023.07 - 2023.10*, Bytedance, Real-time Audio-VideoTransmission Intern. Hangzhou, China.
 - *2022.07 - 2023.03*, Huawei, Wireless Communication Algorithm Intern. Shanghai, China.
 </div>
 
-<div class="content-section" data-section="demos">
+<div class="content-section" data-section="demos" markdown="1">
 # 💻 Demos
 - Multimodal Fusion Positioning System, Shanghai University.
 <video width="480" height="240" controls volume="0.5">
