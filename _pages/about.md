@@ -68,4 +68,11 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 
 </div>
 
+<div class="sidebar-map" style="text-align:center; margin-top: 2em;">
+  <script 
+    type="text/javascript" 
+    id="clustrmaps" 
+    src="//clustrmaps.com/map_v2.js?d=0--LHNojUaMy0lg0zjvozOVZREEjCff0XopOxfMlw-0&cl=ffffff&w=a">
+  </script>
+</div>
 

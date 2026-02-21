@@ -38,9 +38,9 @@ title: "Publications"
 - **G. Pan**, H. Zhang, S. Xu, S. Zhang, and X. Chen, "Joint Optimization of DNN Inference Delay and Energy under Accuracy Constraints for AR Applications," IEEE GLOBECOM, Rio de Janeiro, Brazil, 2022, pp. 2230-2235.
 - H. Zhang, **G. Pan**, S. Xu, S. Zhang, and Z. Jiang, "A Hard and Soft Hybrid Slicing Framework for Service Level Agreement Guarantee via Deep Reinforcement Learning," IEEE VTC2022-Spring, Helsinki, Finland, 2022, pp. 1-5. 
 - Y. Sun, Q. Xie, **G. Pan**, S. Zhang, and S. Xu, "A Novel GCN-based Indoor Localization System with Multiple Access Points," IEEE IWCMC, Harbin City, China, 2021, pp. 9-14. 
-- **G. Pan**, Tao W, X. Jiang, and S. Zhang, "Deep Learning based OTDOA Positioning for NB-IoT Communication Systems," Mobimedia, 27-28 August 2020. 
+- **G. Pan**, Tao W, X. Jiang, and S. Zhang, "Deep Learning based OTDOA Positioning for NB-IoT Communication Systems," Mobimedia, 27-28 August 2020.
 
-[**Preprints & Under Review**]
+[**Preprints**]
 
 - **G. Pan**, A. Özçelikkale, C. Häger, et al., "Semantic Communication for Rate-Limited Closed-Loop Distributed Communication-Sensing-Control Systems," submitted to IEEE Journal on Selected Areas in Communications, 2025. (Under review)
 - **G. Pan**, K. Huang, H. Chen, et al., "Large Wireless Localization Model (LWLM): A Foundation Model for Positioning in 6G Networks," submitted to IEEE Transactions on Wireless Communications, 2025. (Major revision)
