@@ -36,5 +36,5 @@ title: "Background"
 - *2018.08 - 2020.07*, M.S. in Information and Communication Engineering. Shanghai University. 
    Advisor: Prof. Shugong Xu (IEEE Fellow).
 - *2014.08 - 2018.07*, B.S. in Communication Engineering. Shanghai University.
-   Advisor: Prof. Shugong Xu (IEEE Fellow).
+   Advisor: Prof. Jianxiang Wen.
 
