@@ -19,7 +19,10 @@ title: "Background"
 
 
 # 🎉 Research Projects
-- *2022 - 2025*, **Key Contributor**,Research and Development of R18 BSs Supporting Real-Time Broadband Communication Capabilities.
+- *2026 - 2028*, **Key Contributor**, Postdoctoral Project: 6G-Enabled Multi-Modal Sensing for Intelligent Transportation.
+- *2023 - 2028*, **Participant**, SAICOM: Software Artificial Intelligence for Wireless Communications.
+- *2024 - 2026*, **Participant**, EU Horizon 6G-DISAC: 6G for Distributed Intelligent Sensing and Communication.
+- *2022 - 2025*, **Key Contributor**, Research and Development of R18 BSs Supporting Real-Time Broadband Communication Capabilities.
 - *2022 - 2025*, **Participant**, AI-driven 6G Wireless Intelligent Air Interface Transmission Technology.
 - *2020 - 2023*, **Key Contributor**, All-dimensional Database Construction and Data-driven Wireless Transmission Research.
 - *2020 - 2021*, **Key Contributor**, China Mobile Research Institute Project: Wireless Network Element intelligent applications.
