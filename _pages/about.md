@@ -51,7 +51,7 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 - *2025.09*: &nbsp;  New preprint: [*"Active Inference Framework for Closed-Loop Sensing, Communication, and Control in UAV Systems"*](https://arxiv.org/abs/2509.14201) — first paper to introduce Active Inference into Closed-Loop ISAC systems (with Guangjin Pan, Liping Bai, Zhuojun Tian, Hui Chen, Mehdi Bennis & Henk Wymeersch)
 
 
-- *2025.08*: &nbsp; 🎉 Our paper "Enhanced Fingerprint Cellular Positioning With Practical Imperfections: Deep Learning-Based Approaches" has been accepted by IEEE Wireless Communications (with Shugong Xu, Jun Jiang, Wenjun Yu, Yilin Gao, Guangjin Pan, Shiyi Mu, Zhiqi Ai, Yuan Gao, Peigang Jiang \& Cheng-Xiang Wang).
+- *2025.08*: &nbsp; 🎉 Our paper "Enhanced Fingerprint Cellular Positioning With Practical Imperfections: Deep Learning-Based Approaches" has been accepted by IEEE Wireless Communications (with Shugong Xu, Jun Jiang, Wenjun Yu, Yilin Gao, Guangjin Pan, Shiyi Mu, Zhiqi Ai, Yuan Gao, Peigang Jiang & Cheng-Xiang Wang).
 
 - *2025.08*: &nbsp; 🎉 One paper is accepted by Globecom 2025.
 
