@@ -18,7 +18,6 @@ redirect_from:
 Welcome to my homepage 🎉🎉. I received my B.E. degree in 2018 and my Ph.D. degree in 2024, from the School of Communication and Information Engineering, Shanghai University in China. My supervisor is Prof. Shugong Xu from GREAT Lab. I would like to express my sincere gratitude to [Prof. Shugong Xu](https://scholar.xjtlu.edu.cn/en/persons/ShugongXu) for his guidance in my research, and to Prof. Shunqing Zhang for his academic mentorship. Currently, I am a postdoctoral researcher at Chalmers University of Technology, working with Prof. [Henk Wymeersch](https://sites.google.com/site/hwymeers/) on AI-driven wireless localization, sensing, and communication research. I am eager to exchange ideas and collaborate with researchers in various fields such as wireless communication, positioning and sensing, and AI. 
 
 
-
 My research interests include,
 - AI-Native Networks (Radio World Models and Foundation Models)
 - Agentic Wireless Networking
@@ -69,6 +68,10 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 - *2024.02*: &nbsp; 🎉 Our work is accepted by IEEE Transactions on Circuits and Systems for Video Technology: Quality of Experience Oriented Cross-Layer Optimization for Real-Time XR Video Transmission. 
 
 </div>
+
+# 🌟 Motto
+> *Through hardships to the stars.*  
+> *自强不息；先天下之忧而忧，后天下之乐而乐*
 
 <!-- <div class="sidebar-map" style="text-align:center; margin-top: 2em;">
   <script 
