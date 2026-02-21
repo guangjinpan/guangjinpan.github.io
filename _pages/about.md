@@ -21,11 +21,11 @@ Welcome to my homepage 🎉🎉. I received my B.E. degree in 2018 and my Ph.D. 
 
 My research interests include,
 - Wireless Localization and Sensing
-- Goal-oriented Communication
-- Wireless AI / Large AI Model
+- Agentic Wireless Networking
+- AI-Native Networks (Radio World Models and Foundation Models)
 - Wireless Media Network
 
-🤝 Looking forward to collaboration: If you are interested in AI-driven wireless Localization/Sensing (based on foundation models, active inference, world models, AI-driven closed-loop control) but don’t yet have a concrete idea, feel free to reach out — we are very open to collaborations!
+🤝 Looking forward to collaboration: If you are interested in AI-driven wireless Localization/Sensing (based on radio foundation models, active inference, world models, AI-driven closed-loop control) but don’t yet have a concrete idea, feel free to reach out — we are very open to collaborations!
 
 
 
@@ -34,11 +34,11 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 # 🔥 News
 <div class="news-scroll" markdown="1">
 
-- *2025.12*: &nbsp; 🎉 My first authored paper  [*"Active Inference Framework for Closed-Loop Sensing, Communication, and Control in UAV Systems"*](https://arxiv.org/abs/2509.14201) has been accepted by **IEEE Communications Magazine** (Authors: Guangjin Pan, Liping Bai, Zhuojun Tian, Hui Chen, Mehdi Bennis, and Henk Wymeersch). 
+- *2026.01*: &nbsp; 🎉 My first-authored paper,  [*"Active Inference Framework for Closed-Loop Sensing, Communication, and Control in UAV Systems"*](https://arxiv.org/abs/2509.14201) has been accepted by **IEEE ICASSP** (Authors: Guangjin Pan, Liping Bai, Zhuojun Tian, Hui Chen, Mehdi Bennis, and Henk Wymeersch). 
 
 - *2025.12*: &nbsp; 🎉 Our paper [*"Sidelink Positioning: Standardization Advancements, Challenges and Opportunities"*](https://arxiv.org/abs/2512.24803) has been accepted by **IEEE Communications Magazine** (Authors: Yuan Gao, Guangjin Pan, Zhiyong Zhong, Zhengyu Jin, Yichen Hu, Yifei Jin, and Shugong Xu).  
 
-- *2025.12*: &nbsp; 🎉 My first authored paper [*"AI-driven wireless positioning: Fundamentals, standards, state-of-the-art, and challenges"*](https://ieeexplore.ieee.org/document/11315904) has been accepted by **IEEE Communications Surveys and Tutorials** (Authors: Guangjin Pan, Yuan Gao, Yilin Gao, Wenjun Yu, Zhiyong Zhong, Xiaoyu Yang, Xinyu Guo, and Shugong Xu).
+- *2025.12*: &nbsp; 🎉 My first-authored paper, [*"AI-driven wireless positioning: Fundamentals, standards, state-of-the-art, and challenges"*](https://ieeexplore.ieee.org/document/11315904) has been accepted by **IEEE Communications Surveys and Tutorials** (Authors: Guangjin Pan, Yuan Gao, Yilin Gao, Wenjun Yu, Zhiyong Zhong, Xiaoyu Yang, Xinyu Guo, and Shugong Xu).
 
 - *2025.12*: &nbsp; 🎉 Our paper [*"A Multi-task Disentanglement Framework Guided by Pedestrian Attributes for Video-Based Clothes-Changing Person Re-Identification in Internet of Things"*](https://ieeexplore.ieee.org/document/11301714) has been accepted by **IEEE Internet of Things Journal** (Authors: Hengjie Lu, Guangjin Pan, Yilin Gao, and Shugong Xu).
 
