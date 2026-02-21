@@ -25,21 +25,26 @@ title: "Publications"
 
 [**Conference**]
 
-- Y. Sun, X. Jiang, **G Pan**, S. Zhang, S. Xu, “VR Applications Joint Offloading and Scheduling Optimization in Multi-Access Edge Computing," IEEE WCNC Workshop, 2025. (Accepted)
-- Y. Sun, X. Jiang, **G Pan**, S. Zhang, S. Xu, “Joint Computation Offloading and Multi-User Scheduling for Max-latency Minimization in MEC-Aided Cell-Free Networks," IEEE WCSP, Hefei, China, 2024, pp. 703-708.
-- X. Chen, Z. Zhou, W. Ni, **G Pan**, X. Wang, S Zhang, and Y Sun, "Privacy-Preserving Resource Allocation for Asynchronous Federated Learning", 2024 VTC-Spring, 2024.
-- **G. Pan**, S. Xu, S. Zhang and X. Chen, Y. Sun, "Real-time Extended Reality Video Transmission Optimization Based on Frame-priority Scheduling," 2023 FCN, Queenstown, New Zealand, 2023, pp. 1-6.
-- X. Ye, Y. Sun, D. Wen, **G Pan**, and S. Zhang, "End-to-End Delay Minimization based on Joint Optimization of DNN Partitioning and Resource Allocation for Cooperative Edge Inference," 2023 VTC-Fall, Hong Kong, Hong Kong, 2023. pp. 1-7.
-- Y. Sun, W. Chen, **G. Pan**, S. Zhang, X. Chen, and Y. Wu, "Joint Bitrate Transcoding and Parallel Cooperative Transmission Optimization for Adaptive Video Streaming in Edge Assisted Cellular Networks," 2023 VTC-Fall, Hong Kong, Hong Kong, 2023. pp. 1-7.
-- **G. Pan**, H. Zhang, S. Xu, S. Zhang and X. Chen, "Joint Optimization of DNN Inference Delay and Energy under Accuracy Constraints for AR Applications," 2022 GLOBECOM, Rio de Janeiro, Brazil, 2022, pp. 2230-2235.
-- H. Zhang, **G. Pan**, S. Xu, S. Zhang and Z. Jiang, "A Hard and Soft Hybrid Slicing Framework for Service Level Agreement Guarantee via Deep Reinforcement Learning," 2022 VTC2022-Spring, Helsinki, Finland, 2022, pp. 1-5. 
-- Y. Sun, Q. Xie, **G. Pan**, S. Zhang and S. Xu, "A Novel GCN-based Indoor Localization System with Multiple Access Points," 2021 IWCMC, Harbin City, China, 2021, pp. 9-14. 
-- **G. Pan**, Tao. W, X. Jiang and S. Zhang, "Deep Learning based OTDOA Positioning for NB-IoT Communication Systems. " 2020 Mobimedia, 27-28 August 2020. 
+- **G. Pan**, Z. Li, A. Özçelikkale, C. Häger, M. Keskin, and H. Wymeersch, "Active Inference Framework for Closed-Loop Sensing, Communication, and Control Systems," IEEE ICASSP, 2026. (Accepted)
+- **G. Pan**, Z. Li, A. Özçelikkale, C. Häger, M. Keskin, and H. Wymeersch, "Observation Compression in Rate-Limited Closed-Loop Distributed ISAC Systems: From Signal Reconstruction to Control," IEEE Globecom Workshops, 2025.
+- Y. Zhang, **G. Pan**, M. Keskin, O. Kaltiokallio, M. Valkama, and H. Wymeersch, "UNILoc: Unified Localization Combining Model-Based Geometry and Unsupervised Learning," IEEE Globecom, 2025.
+- X. Chen, Q. Zhang, W. Ni, **G. Pan**, et al., "Towards Secure Co-Inference: Leveraging DNN Partitioning and Collaborative Friendly Jamming," IEEE ICCC, Shanghai, China, 2025, pp. 1-6.
+- R. Zhu, Y. Sun, S. Zhang, X. Chen, and **G. Pan**, "VR Applications Joint Offloading and Scheduling Optimization in Multi-access Edge Computing," IEEE WCNC, Milan, Italy, 2025, pp. 1-6.
+- Y. Sun, X. Jiang, **G. Pan**, S. Zhang, and S. Xu, "Joint Computation Offloading and Multi-User Scheduling for Max-Latency Minimization in MEC-Aided Cell-Free Networks," IEEE WCSP, Hefei, China, 2024, pp. 703-708.
+- X. Chen, Z. Zhou, W. Ni, **G. Pan**, et al., "Privacy-Preserving Resource Allocation for Asynchronous Federated Learning," IEEE VTC-Spring, Singapore, Singapore, 2024, pp. 1-6.
+- X. Ye, Y. Sun, D. Wen, **G. Pan**, and S. Zhang, "End-to-End Delay Minimization based on Joint Optimization of DNN Partitioning and Resource Allocation for Cooperative Edge Inference," IEEE VTC-Fall, Hong Kong, Hong Kong, 2023, pp. 1-7.
+- Y. Sun, W. Chen, **G. Pan**, S. Zhang, X. Chen, and Y. Wu, "Joint Bitrate Transcoding and Parallel Cooperative Transmission Optimization for Adaptive Video Streaming in Edge Assisted Cellular Networks," IEEE VTC-Fall, Hong Kong, Hong Kong, 2023, pp. 1-7.
+- **G. Pan**, S. Xu, S. Zhang, X. Chen, and Y. Sun, "Real-time Extended Reality Video Transmission Optimization Based on Frame-priority Scheduling," IEEE FCN, Queenstown, New Zealand, 2023, pp. 1-6.
+- **G. Pan**, H. Zhang, S. Xu, S. Zhang, and X. Chen, "Joint Optimization of DNN Inference Delay and Energy under Accuracy Constraints for AR Applications," IEEE GLOBECOM, Rio de Janeiro, Brazil, 2022, pp. 2230-2235.
+- H. Zhang, **G. Pan**, S. Xu, S. Zhang, and Z. Jiang, "A Hard and Soft Hybrid Slicing Framework for Service Level Agreement Guarantee via Deep Reinforcement Learning," IEEE VTC2022-Spring, Helsinki, Finland, 2022, pp. 1-5. 
+- Y. Sun, Q. Xie, **G. Pan**, S. Zhang, and S. Xu, "A Novel GCN-based Indoor Localization System with Multiple Access Points," IEEE IWCMC, Harbin City, China, 2021, pp. 9-14. 
+- **G. Pan**, Tao W, X. Jiang, and S. Zhang, "Deep Learning based OTDOA Positioning for NB-IoT Communication Systems," Mobimedia, 27-28 August 2020. 
 
 [**Preprints & Under Review**]
 
 - **G. Pan**, A. Özçelikkale, C. Häger, et al., "Semantic Communication for Rate-Limited Closed-Loop Distributed Communication-Sensing-Control Systems," submitted to IEEE Journal on Selected Areas in Communications, 2025. (Under review)
 - **G. Pan**, K. Huang, H. Chen, et al., "Large Wireless Localization Model (LWLM): A Foundation Model for Positioning in 6G Networks," submitted to IEEE Transactions on Wireless Communications, 2025. (Major revision)
 - Y. Zhang, **G. Pan\***, M. Keskin, et al., "UNILocPro: Unified Localization Integrating Model-Based Geometry and Channel Charting," submitted to IEEE Transactions on Wireless Communications, 2025. (Under review)
+- K. Huang, C. Shen, **G. Pan**, et al., "Physics-Guided Deep Learning for WiFi-Based 3D Human Pose Estimation: A Multipath-Aware Framework with Hierarchical Semantic Fusion," submitted to CVPR, 2026. (Under review)
 <!-- - K. Huang, J. Zhou, J. Zhang, **G. Pan**, S. Zhang et al., "Cross-Domain Few-Shot Indoor Localization via Multi-Modal Feature-level Distribution Refinement with MK-MMD Optimization," submitted to IEEE Internet of Things Journal, 2025. (Under review) -->
 <!-- - Q. Zhang, X. Chen, W. Ni, **G. Pan**, D. Niyato, S. Zhang, Y. Sun et al., "Towards Secrecy Co-Inference: A Novel Framework Leveraging Model Partitioning and Friendly Collaborative Jamming," submitted to IEEE Transactions on Mobile Computing, 2025. (Under review) -->
