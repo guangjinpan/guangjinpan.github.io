@@ -10,7 +10,7 @@ title: "Publications"
 - X. Chen, Z. Zhou, W. Ni, **G. Pan**, S. Zhang, Y. Sun, and A. Jamalipour, "Scheduling and Securing Asynchronous Federated Learning Through Cooperative Jamming," IEEE Transactions on Cognitive Communications and Networking, vol. 12, pp. 3209-3222, 2026.
 - Y. Gao, **G. Pan**, Z. Zhong, et al., "Sidelink Positioning: Standardization Advancements, Opportunities and Challenges," IEEE Communications Magazine, 2025.
 - S. Xu, J. Jiang, W. Yu, Y. Gao, **G. Pan**, et al., "Enhanced Fingerprint-based Positioning With Practical Imperfections: Deep Learning-based Approaches," IEEE Wireless Communications, 2025.
-- J. Li, S. Zhang, T. Yu, **G. Pan** et al., "A Unified QoS-Aware Multiplexing Framework for Next Generation Immersive Communication with Legacy Wireless Applications," IEEE Internet of Things Journal, 2025. (Accepted)
+- J. Li, S. Zhang, T. Yu, **G. Pan** et al., "A Unified QoS-Aware Multiplexing Framework for Next Generation Immersive Communication with Legacy Wireless Applications," IEEE Internet of Things Journal, vol. 12, no. 14, pp. 28582-28597, 15 July15, 2025.
 - Y. Sun, W. Xiong, **G. Pan\***, S. Xu et al., "QoE Prediction in RIC-assisted Wireless Real-time Video Transmission System with Transformer," IEEE Transactions on Vehicular Technology, vol. 74, no. 9, pp. 14910-14915, Sept. 2025.
 - Y. Sun, J. Qiu, **G. Pan\***, S. Xu et al., "Energy Optimization of Multi-task DNN Inference in MEC-assisted XR Devices: A Lyapunov-Guided Reinforcement Learning Approach," IEEE Internet of Things Journal, vol. 12, no. 11, pp. 17499-17513, June 2025.
 - **G. Pan**, S. Xu, and P. Jiang, "Optimizing 5G-A Networks for Time-critical Applications: The Role of L4S," IEEE Wireless Communications, vol. 32, no. 2, pp. 230-237, April 2025.
