@@ -20,9 +20,9 @@ Welcome to my homepage 🎉🎉. I received my B.E. degree in 2018 and my Ph.D. 
 
 
 My research interests include,
-- Wireless Localization and Sensing
-- Agentic Wireless Networking
 - AI-Native Networks (Radio World Models and Foundation Models)
+- Agentic Wireless Networking
+- Wireless Localization and Sensing
 - Wireless Media Network
 
 🤝 Looking forward to collaboration: If you are interested in AI-driven wireless Localization/Sensing (based on radio foundation models, active inference, world models, AI-driven closed-loop control) but don’t yet have a concrete idea, feel free to reach out — we are very open to collaborations!
