@@ -69,8 +69,13 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 
 </div>
 
-> <span style="font-weight:bold; margin-right: 0.5em;">🌟 Motto</span>*Through hardships to the stars.*  
-> *自强不息；先天下之忧而忧，后天下之乐而乐*
+<div style="display: flex; align-items: flex-start; margin-top: 0.5em;">
+  <div style="font-weight: bold; margin-right: 0.75em; white-space: nowrap;">🌟 Motto</div>
+  <div>
+    <div>*Through hardships to the stars.*</div>
+    <div>*自强不息；先天下之忧而忧，后天下之乐而乐*</div>
+  </div>
+</div>
 
 <!-- <div class="sidebar-map" style="text-align:center; margin-top: 2em;">
   <script 
