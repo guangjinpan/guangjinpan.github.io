@@ -15,11 +15,8 @@ main:
   # - title: "Invited Talks"
   #   url: "/?section=invited-talks"
 
-  - title: "Reviewing Experiences"
-    url: "/reviewing-experiences/"
-
-  - title: "Internships"
-    url: "/internships/"
+  - title: "Professional Experiences"
+    url: "/professional-experiences/"
 
   - title: "Demos"
     url: "/demos/"
