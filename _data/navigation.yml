@@ -9,14 +9,8 @@ main:
   - title: "Publications"
     url: "/publications/"
 
-  - title: "Honors and Awards"
-    url: "/honors-and-awards/"
-
-  - title: "Research Projects"
-    url: "/research-projects/"
-
-  - title: "Educations"
-    url: "/educations/"
+  - title: "Honors & Educations"
+    url: "/honors-projects-educations/"
 
   # - title: "Invited Talks"
   #   url: "/?section=invited-talks"
