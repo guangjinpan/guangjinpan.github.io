@@ -6,7 +6,7 @@ title: "Background"
 # 🎖 Honors and Awards
 - *2024.11* 2024 Huawei Sweden Hackathon 2024 - Channel Charting, Champion.
 - *2024.08* 2024 Wireless Algorithm Competition - AI-driven Wireless positioning, Champion.
-- *2023.11* 1st WiFi Sensing Contest - WiFi Detection & Localization, Third Prize.
+- *2023.11* 1st WiFi Sensing Contest - WiFi Detection <span class="amp">&amp;</span> Localization, Third Prize.
 - *2023.07* 4th Wireless Big Data Competition - Multi-Objective Beamforming Optimization, Third Prize.
 - *2023.06* 2023 Wireless Algorithm Competition - Breath Detection Based on WiFi Sensing, Third Prize.
 - *2022.07* 3rd Wireless Big Data Competition - 5G Massive MIMO Optimization, Third Place.
