@@ -42,7 +42,7 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 
 - *2025.12*: &nbsp; 🎉 Our paper [*"A Multi-task Disentanglement Framework Guided by Pedestrian Attributes for Video-Based Clothes-Changing Person Re-Identification in Internet of Things"*](https://ieeexplore.ieee.org/document/11301714) has been accepted by **IEEE Internet of Things Journal** (Authors: Hengjie Lu, Guangjin Pan, Yilin Gao, and Shugong Xu).
 
-- *2025.12*: &nbsp; 🎉 I am honored and delighted to receive the IEEE Communications Society 2025 [**Exemplary Reviewer Award**](/assets/img/OJCOMS_Reviewer.png) for my service to the IEEE Open Journal of the Communications Society.
+- *2025.12*: &nbsp; 🎉 I am honored and delighted to receive the IEEE Communications Society 2025 [**Exemplary Reviewer Award**](/images/OJCOMS_Reviewer.png) for my service to the IEEE Open Journal of the Communications Society.
 
 
 - *2025.10*: &nbsp; 🎉 Our paper [*"Scheduling and Securing Asynchronous Federated Learning Through Cooperative Jamming"*](https://ieeexplore.ieee.org/document/11207714) has been accepted by **IEEE Transactions on Cognitive Communications and Networking** (with Fengmei Ni, Zheer Zhou, Wei Ni, Xiaojing Chen, Guangjin Pan, Yanzan Sun, Shunqing Zhang, and Abbas Jamalipour).
