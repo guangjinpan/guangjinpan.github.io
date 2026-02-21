@@ -24,7 +24,7 @@ My research interests include,
 - Wireless Localization and Sensing
 - Wireless Media Network
 
-🤝 Looking forward to collaboration: If you are interested in AI-driven wireless Localization/Sensing (based on radio foundation models, active inference, world models, AI-driven closed-loop control) but don’t yet have a concrete idea, feel free to reach out — we are very open to collaborations!
+🤝 Looking forward to collaboration: If you are interested in AI-driven wireless Localization/Sensing (based on radio foundation models, active inference, world models, AI-driven closed-loop control) but don’t yet have a concrete idea, feel free to reach out to [Henk](https://sites.google.com/site/hwymeers/) and me — we are very open to collaborations!
 
 
 
@@ -69,8 +69,7 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 
 </div>
 
-# 🌟 Motto
-> *Through hardships to the stars.*  
+> <span style="font-weight:bold; margin-right: 0.5em;">🌟 Motto</span>*Through hardships to the stars.*  
 > *自强不息；先天下之忧而忧，后天下之乐而乐*
 
 <!-- <div class="sidebar-map" style="text-align:center; margin-top: 2em;">
