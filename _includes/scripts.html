@@ -1,3 +1,56 @@
 <script src="{{ "/assets/js/main.min.js" | relative_url }}"></script>
+<script>
+(function () {
+  function copyText(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      return navigator.clipboard.writeText(text);
+    }
+
+    var textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.setAttribute("readonly", "");
+    textarea.style.position = "fixed";
+    textarea.style.left = "-9999px";
+    textarea.style.top = "0";
+    document.body.appendChild(textarea);
+    textarea.focus();
+    textarea.select();
+
+    try {
+      document.execCommand("copy");
+    } finally {
+      document.body.removeChild(textarea);
+    }
+
+    return Promise.resolve();
+  }
+
+  document.addEventListener("click", function (event) {
+    var button = event.target && event.target.closest ? event.target.closest("button.bibtex-copy") : null;
+    if (!button) return;
+
+    var container = button.closest("li") || button.parentElement || document;
+    var bibElement = container.querySelector(".bibtex-text");
+    var bibtex = bibElement ? bibElement.textContent : "";
+    bibtex = (bibtex || "").trim().replace(/\\n/g, "\n");
+    if (!bibtex) return;
+
+    var originalText = button.textContent;
+    copyText(bibtex)
+      .then(function () {
+        button.textContent = "Copied";
+        window.setTimeout(function () {
+          button.textContent = originalText;
+        }, 1200);
+      })
+      .catch(function () {
+        button.textContent = "Copy failed";
+        window.setTimeout(function () {
+          button.textContent = originalText;
+        }, 1200);
+      });
+  });
+})();
+</script>
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}

@@ -6,7 +6,7 @@ title: "Publications"
 # 📝 Publications 
 
 [**Journal**]
-- **G. Pan**, Y. Gao, Y. Gao, et al., "AI-driven Wireless Positioning: Fundamentals, Standards, State-of-the-art, and Challenges," IEEE Communications Surveys & Tutorials, vol. 28, pp. 4394-4428, 2026.
+- **G. Pan**, Y. Gao, Y. Gao, et al., "AI-driven Wireless Positioning: Fundamentals, Standards, State-of-the-art, and Challenges," IEEE Communications Surveys &amp; Tutorials, vol. 28, pp. 4394-4428, 2026. <button class="bibtex-copy" type="button">BibTeX</button><span class="bibtex-text" style="display:none">@article{Pan2026AIdriven, author={Pan, Guangjin and Gao, Yuan and Gao, Y. and others}, title={AI-driven Wireless Positioning: Fundamentals, Standards, State-of-the-art, and Challenges}, journal={IEEE Communications Surveys \\&amp; Tutorials}, volume={28}, pages={4394--4428}, year={2026}}</span>
 - X. Chen, Z. Zhou, W. Ni, **G. Pan**, S. Zhang, Y. Sun, and A. Jamalipour, "Scheduling and Securing Asynchronous Federated Learning Through Cooperative Jamming," IEEE Transactions on Cognitive Communications and Networking, vol. 12, pp. 3209-3222, 2026.
 - Y. Gao, **G. Pan**, Z. Zhong, et al., "Sidelink Positioning: Standardization Advancements, Opportunities and Challenges," IEEE Communications Magazine, 2025.
 - S. Xu, J. Jiang, W. Yu, Y. Gao, **G. Pan**, et al., "Enhanced Fingerprint-based Positioning With Practical Imperfections: Deep Learning-based Approaches," IEEE Wireless Communications, 2025.
@@ -41,7 +41,7 @@ title: "Publications"
 - **G. Pan**, Tao W, X. Jiang, and S. Zhang, "Deep Learning based OTDOA Positioning for NB-IoT Communication Systems," Mobimedia, 27-28 August 2020.
 
 [**Preprints**]
-- H. Huang, **G. Pan\***, K. Huang, S. Zhang\*, et al., "A Retrieval-Assisted Framework for Wireless Localization," submitted to IEEE Transactions on Mobile Computing, 2025. (Under review)
+- H. Huang, **G. Pan\***, K. Huang, S. Zhang\*, et al., "A Retrieval-Assisted Framework for Wireless Localization," submitted to IEEE Transactions on Mobile Computing, 2026. (Under review)
 - **G. Pan**, A. Özçelikkale, C. Häger, et al., "Semantic Communication for Rate-Limited Closed-Loop Distributed Communication-Sensing-Control Systems," submitted to IEEE Journal on Selected Areas in Communications, 2025. (Under review)
 - **G. Pan**, K. Huang, H. Chen, et al., "Large Wireless Localization Model (LWLM): A Foundation Model for Positioning in 6G Networks," submitted to IEEE Transactions on Wireless Communications, 2025. (Major revision)
 - Y. Zhang, **G. Pan\***, M. Keskin, et al., "UNILocPro: Unified Localization Integrating Model-Based Geometry and Channel Charting," submitted to IEEE Transactions on Wireless Communications, 2025. (Under review)
