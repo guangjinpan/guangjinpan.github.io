@@ -41,7 +41,7 @@ title: "Publications"
 - **G. Pan**, Tao W, X. Jiang, and S. Zhang, "Deep Learning based OTDOA Positioning for NB-IoT Communication Systems," Mobimedia, 27-28 August 2020.
 
 [**Preprints**]
-
+- H. Huang, **G. Pan\***, K. Huang, S. Zhang\*, et al., "A Retrieval-Assisted Framework for Wireless Localization," submitted to IEEE Transactions on Mobile Computing, 2025. (Under review)
 - **G. Pan**, A. Özçelikkale, C. Häger, et al., "Semantic Communication for Rate-Limited Closed-Loop Distributed Communication-Sensing-Control Systems," submitted to IEEE Journal on Selected Areas in Communications, 2025. (Under review)
 - **G. Pan**, K. Huang, H. Chen, et al., "Large Wireless Localization Model (LWLM): A Foundation Model for Positioning in 6G Networks," submitted to IEEE Transactions on Wireless Communications, 2025. (Major revision)
 - Y. Zhang, **G. Pan\***, M. Keskin, et al., "UNILocPro: Unified Localization Integrating Model-Based Geometry and Channel Charting," submitted to IEEE Transactions on Wireless Communications, 2025. (Under review)
