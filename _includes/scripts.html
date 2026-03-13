@@ -126,6 +126,30 @@
     var i = 0;
     var t = text || "";
 
+    function parseMetaBefore(atPos) {
+      var meta = {};
+      var pos = atPos - 1;
+      while (pos >= 0) {
+        var lineStart = t.lastIndexOf("\n", pos);
+        lineStart = lineStart < 0 ? 0 : lineStart + 1;
+        var line = t.slice(lineStart, pos + 1).trim();
+        if (!line) break;
+        if (line[0] !== "%") break;
+
+        var m = line.match(/^\%\s*([A-Za-z0-9_-]+)\s*(?:[:=]\s*)(.*)$/);
+        if (m) {
+          var key = (m[1] || "").toLowerCase();
+          var value = (m[2] || "").trim();
+          if (value[0] === "{") value = value.slice(1, -1).trim();
+          if (value[0] === "\"") value = value.slice(1, -1).trim();
+          meta[key] = value;
+        }
+
+        pos = lineStart - 2;
+      }
+      return meta;
+    }
+
     while (i < t.length) {
       var atIndex = t.indexOf("@", i);
       if (atIndex < 0) break;
@@ -150,7 +174,7 @@
       var entryText = t.slice(atIndex, braceClose + 1);
       var entry = parseBibtex(entryText);
       if (entry && entry.citeKey) {
-        entries[entry.citeKey] = { entry: entry, raw: entryText };
+        entries[entry.citeKey] = { entry: entry, raw: entryText, meta: parseMetaBefore(atIndex) };
       }
 
       i = braceClose + 1;
@@ -168,6 +192,13 @@
       if (Object.prototype.hasOwnProperty.call(entries, candidate) && candidate.toLowerCase() === lower) {
         return entries[candidate];
       }
+    }
+    for (var candidate2 in entries) {
+      if (!Object.prototype.hasOwnProperty.call(entries, candidate2)) continue;
+      var block = entries[candidate2];
+      var e = block && block.entry;
+      var idx = (block && block.meta ? block.meta["x_index"] : "") || (e && e.fields ? e.fields["x_index"] : "");
+      if (idx && idx.toLowerCase() === lower) return entries[candidate2];
     }
     return null;
   }
@@ -199,6 +230,64 @@
     return (initials2 ? initials2 + " " : "") + lastName;
   }
 
+  function parseAuthorList(text) {
+    return (text || "")
+      .split(/\s+and\s+/i)
+      .map(function (a) { return (a || "").trim(); })
+      .filter(Boolean);
+  }
+
+  function parseIndexList(text) {
+    return (text || "")
+      .split(/[,\s]+/)
+      .map(function (v) { return (v || "").trim(); })
+      .filter(Boolean)
+      .map(function (v) { return parseInt(v, 10); })
+      .filter(function (n) { return Number.isFinite(n) && n > 0; });
+  }
+
+  function nameToKey(name) {
+    var n = (name || "").trim();
+    if (!n) return "";
+    if (/^others$/i.test(n) || /^et al\.?$/i.test(n)) return "et-al";
+
+    var last = "";
+    var first = "";
+    if (n.indexOf(",") >= 0) {
+      var parts = n.split(",");
+      last = (parts[0] || "").trim();
+      first = (parts.slice(1).join(",") || "").trim();
+    } else {
+      var words = n.split(/\s+/).filter(Boolean);
+      last = (words[words.length - 1] || "").trim();
+      first = words.slice(0, -1).join(" ").trim();
+    }
+
+    var initials = (first || "")
+      .split(/[\s-]+/)
+      .filter(Boolean)
+      .map(function (p) { return (p[0] || "").toLowerCase(); })
+      .join("");
+
+    return (last || "").toLowerCase() + "|" + initials;
+  }
+
+  function getFieldAny(fields, keys) {
+    for (var i = 0; i < keys.length; i++) {
+      var v = fields[keys[i]];
+      if (v) return v;
+    }
+    return "";
+  }
+
+  function getMetaAny(meta, keys) {
+    for (var i = 0; i < keys.length; i++) {
+      var v = meta ? meta[keys[i]] : "";
+      if (v) return v;
+    }
+    return "";
+  }
+
   function escapeHtml(s) {
     return (s || "")
       .replace(/&/g, "&amp;")
@@ -210,17 +299,101 @@
   function renderBibtexCitation(entry) {
     if (!entry || !entry.fields) return "";
     var f = entry.fields;
+    var meta = entry.meta || {};
 
     var authorsRaw = f.author || "";
-    var authorParts = authorsRaw.split(/\s+and\s+/i).map(function (a) { return a.trim(); }).filter(Boolean);
-    var formattedAuthors = authorParts.map(formatAuthorName).filter(Boolean);
+    var authorParts = parseAuthorList(authorsRaw);
+    var authors = authorParts
+      .map(function (raw) {
+        return {
+          raw: raw,
+          formatted: formatAuthorName(raw),
+          rawKey: nameToKey(raw),
+        };
+      })
+      .filter(function (a) { return a.formatted; });
 
-    var hasEtAl = formattedAuthors.some(function (a) { return a.toLowerCase() === "et al."; }) || formattedAuthors.length > 3;
-    var shownAuthors = hasEtAl ? formattedAuthors.filter(function (a) { return a.toLowerCase() !== "et al."; }).slice(0, 3) : formattedAuthors;
-    var authorText = shownAuthors.join(", ");
-    if (hasEtAl) authorText = (authorText ? authorText + ", " : "") + "et al.";
+    var correspondingSet = {};
 
-    var safeAuthorText = escapeHtml(authorText).replace(/\bG\.\s*Pan\b/g, "<strong>G. Pan</strong>");
+    var boldAuthorField =
+      getMetaAny(meta, ["x_bold_author", "x_highlight_author", "x_self_author"]) ||
+      getFieldAny(f, ["x_bold_author", "x_highlight_author", "x_self_author"]);
+    var boldAuthorIndexField =
+      getMetaAny(meta, ["x_bold_author_index", "x_bold_author_indices", "x_highlight_author_index", "x_highlight_author_indices"]) ||
+      getFieldAny(f, ["x_bold_author_index", "x_bold_author_indices", "x_highlight_author_index", "x_highlight_author_indices"]);
+
+    var correspondingAuthorField =
+      getMetaAny(meta, ["x_corresponding_author", "x_correspondingauthor", "corresponding_author", "correspondingauthor", "corresponding"]) ||
+      getFieldAny(f, ["x_corresponding_author", "x_correspondingauthor", "corresponding_author", "correspondingauthor", "corresponding"]);
+    var correspondingAuthorIndexField =
+      getMetaAny(meta, ["x_corresponding_author_index", "x_corresponding_author_indices", "x_corresponding_index", "x_corresponding_indices"]) ||
+      getFieldAny(f, ["x_corresponding_author_index", "x_corresponding_author_indices", "x_corresponding_index", "x_corresponding_indices"]);
+
+    if (correspondingAuthorField) {
+      parseAuthorList(correspondingAuthorField).forEach(function (n) {
+        var k = nameToKey(n);
+        if (k) correspondingSet[k] = true;
+      });
+    }
+
+    if (correspondingAuthorIndexField) {
+      parseIndexList(correspondingAuthorIndexField).forEach(function (oneBasedIndex) {
+        var idx = oneBasedIndex - 1;
+        if (authors[idx]) correspondingSet[authors[idx].rawKey] = true;
+      });
+    }
+
+    var boldSet = {};
+    if (boldAuthorField) {
+      parseAuthorList(boldAuthorField).forEach(function (n) {
+        var k = nameToKey(n);
+        if (k) boldSet[k] = true;
+      });
+    } else if (boldAuthorIndexField) {
+      parseIndexList(boldAuthorIndexField).forEach(function (oneBasedIndex) {
+        var idx = oneBasedIndex - 1;
+        if (authors[idx]) boldSet[authors[idx].rawKey] = true;
+      });
+    } else {
+      boldSet[nameToKey("Pan, Guangjin")] = true;
+      boldSet[nameToKey("Guangjin Pan")] = true;
+    }
+
+    var maxAuthorsToShow = 6;
+    var indices = authors.map(function (_, idx) { return idx; });
+    var needsEtAl = authors.length > maxAuthorsToShow;
+    var indicesToShow = indices;
+
+    if (needsEtAl) {
+      indicesToShow = [0, 1, 2].filter(function (idx) { return idx < authors.length; });
+      var corrIndex = -1;
+      for (var ai = 0; ai < authors.length; ai++) {
+        if (correspondingSet[authors[ai].rawKey]) {
+          corrIndex = ai;
+          break;
+        }
+      }
+      if (corrIndex >= 0 && indicesToShow.indexOf(corrIndex) === -1) {
+        indicesToShow.push(corrIndex);
+        indicesToShow.sort(function (a, b) { return a - b; });
+      }
+    }
+
+    var renderedAuthors = indicesToShow
+      .map(function (idx) {
+        var a = authors[idx];
+        var isBold = !!boldSet[a.rawKey];
+        var isCorr = !!correspondingSet[a.rawKey];
+        var display = escapeHtml(a.formatted);
+        if (isCorr) display = display + "*";
+        if (isBold) display = "<strong>" + display + "</strong>";
+        return display;
+      })
+      .filter(Boolean);
+
+    var authorText = renderedAuthors.join(", ");
+    if (needsEtAl) authorText = (authorText ? authorText + ", " : "") + "et al.";
+    var safeAuthorText = authorText;
 
     var title = f.title || "";
     var venue = f.journal || f.booktitle || "";
@@ -254,6 +427,7 @@
               var entries = parseBibtexEntries(text || "");
               var selectedBlock = getBibEntryByKey(entries, key);
               var selected = selectedBlock ? selectedBlock.entry : null;
+              if (selected && selectedBlock && selectedBlock.meta) selected.meta = selectedBlock.meta;
               var htmlByKey = renderBibtexCitation(selected);
               if (!htmlByKey) throw new Error("Parse failed");
               node.innerHTML = htmlByKey;
