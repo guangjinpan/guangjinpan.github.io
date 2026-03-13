@@ -3,6 +3,213 @@
 (function () {
   var bibCache = {};
 
+  function fetchBib(bibSrc) {
+    if (bibCache[bibSrc]) return Promise.resolve(bibCache[bibSrc]);
+    return fetch(bibSrc)
+      .then(function (response) {
+        if (!response.ok) throw new Error("Fetch failed");
+        return response.text();
+      })
+      .then(function (text) {
+        bibCache[bibSrc] = text;
+        return text;
+      });
+  }
+
+  function parseBibtex(text) {
+    var atIndex = (text || "").indexOf("@");
+    if (atIndex < 0) return null;
+    var braceOpen = text.indexOf("{", atIndex);
+    if (braceOpen < 0) return null;
+
+    var depth = 0;
+    var braceClose = -1;
+    for (var i = braceOpen; i < text.length; i++) {
+      var ch = text[i];
+      if (ch === "{") depth++;
+      else if (ch === "}") {
+        depth--;
+        if (depth === 0) {
+          braceClose = i;
+          break;
+        }
+      }
+    }
+    if (braceClose < 0) return null;
+
+    var inside = text.slice(braceOpen + 1, braceClose).trim();
+    var firstComma = inside.indexOf(",");
+    if (firstComma < 0) return null;
+    var citeKey = inside.slice(0, firstComma).trim();
+    var body = inside.slice(firstComma + 1);
+
+    var fields = {};
+    var pos = 0;
+
+    function skipWs() {
+      while (pos < body.length && /\s/.test(body[pos])) pos++;
+    }
+
+    function readUntil(predicate) {
+      var start = pos;
+      while (pos < body.length && !predicate(body[pos])) pos++;
+      return body.slice(start, pos);
+    }
+
+    function readBalancedBraces() {
+      var start = pos;
+      var d = 0;
+      while (pos < body.length) {
+        var c = body[pos++];
+        if (c === "{") d++;
+        else if (c === "}") {
+          d--;
+          if (d === 0) break;
+        }
+      }
+      return body.slice(start, pos);
+    }
+
+    function readQuoted() {
+      var start = pos;
+      pos++;
+      while (pos < body.length) {
+        var c = body[pos++];
+        if (c === "\\" && pos < body.length) {
+          pos++;
+          continue;
+        }
+        if (c === "\"") break;
+      }
+      return body.slice(start, pos);
+    }
+
+    while (pos < body.length) {
+      skipWs();
+      if (pos >= body.length) break;
+      if (body[pos] === "}") break;
+      if (body[pos] === ",") {
+        pos++;
+        continue;
+      }
+
+      var key = readUntil(function (c) { return c === "=" || c === "\n"; }).trim();
+      skipWs();
+      if (body[pos] !== "=") {
+        pos++;
+        continue;
+      }
+      pos++;
+      skipWs();
+
+      var rawValue = "";
+      if (body[pos] === "{") rawValue = readBalancedBraces();
+      else if (body[pos] === "\"") rawValue = readQuoted();
+      else rawValue = readUntil(function (c) { return c === "," || c === "\n"; });
+
+      rawValue = (rawValue || "").trim();
+      if (rawValue[0] === "{") rawValue = rawValue.slice(1, -1);
+      if (rawValue[0] === "\"") rawValue = rawValue.slice(1, -1);
+      rawValue = rawValue.replace(/\s+/g, " ").trim();
+
+      if (key) fields[key.toLowerCase()] = rawValue;
+
+      while (pos < body.length && body[pos] !== ",") pos++;
+      if (body[pos] === ",") pos++;
+    }
+
+    return { citeKey: citeKey, fields: fields };
+  }
+
+  function formatAuthorName(name) {
+    var n = (name || "").trim();
+    if (!n) return "";
+    if (/^others$/i.test(n) || /^et al\.?$/i.test(n)) return "et al.";
+
+    if (n.indexOf(",") >= 0) {
+      var parts = n.split(",");
+      var last = (parts[0] || "").trim();
+      var first = (parts.slice(1).join(",") || "").trim();
+      var initials = first
+        .split(/[\s-]+/)
+        .filter(Boolean)
+        .map(function (p) { return p[0].toUpperCase() + "."; })
+        .join("");
+      return (initials ? initials + " " : "") + last;
+    }
+
+    var words = n.split(/\s+/).filter(Boolean);
+    if (words.length === 1) return words[0];
+    var lastName = words[words.length - 1];
+    var firstNames = words.slice(0, -1);
+    var initials2 = firstNames
+      .map(function (p) { return p[0].toUpperCase() + "."; })
+      .join("");
+    return (initials2 ? initials2 + " " : "") + lastName;
+  }
+
+  function escapeHtml(s) {
+    return (s || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function renderBibtexCitation(entry) {
+    if (!entry || !entry.fields) return "";
+    var f = entry.fields;
+
+    var authorsRaw = f.author || "";
+    var authorParts = authorsRaw.split(/\s+and\s+/i).map(function (a) { return a.trim(); }).filter(Boolean);
+    var formattedAuthors = authorParts.map(formatAuthorName).filter(Boolean);
+
+    var hasEtAl = formattedAuthors.some(function (a) { return a.toLowerCase() === "et al."; }) || formattedAuthors.length > 3;
+    var shownAuthors = hasEtAl ? formattedAuthors.filter(function (a) { return a.toLowerCase() !== "et al."; }).slice(0, 3) : formattedAuthors;
+    var authorText = shownAuthors.join(", ");
+    if (hasEtAl) authorText = (authorText ? authorText + ", " : "") + "et al.";
+
+    authorText = authorText.replace(/\bG\.\s*Pan\b/g, "<strong>G. Pan</strong>");
+
+    var title = f.title || "";
+    var venue = f.journal || f.booktitle || "";
+    var volume = f.volume || "";
+    var number = f.number || "";
+    var pages = f.pages || "";
+    var year = f.year || "";
+
+    var parts = [];
+    if (authorText) parts.push(authorText);
+    if (title) parts.push("&quot;" + escapeHtml(title) + ",&quot;");
+    if (venue) parts.push(escapeHtml(venue));
+    if (volume) parts.push("vol. " + escapeHtml(volume));
+    if (number) parts.push("no. " + escapeHtml(number));
+    if (pages) parts.push("pp. " + escapeHtml(pages));
+    if (year) parts.push(escapeHtml(year));
+
+    return parts.join(", ") + ".";
+  }
+
+  function renderBibtexCitations() {
+    var nodes = document.querySelectorAll(".bibtex-citation[data-bib-src]");
+    for (var i = 0; i < nodes.length; i++) {
+      (function (node) {
+        var src = node.getAttribute("data-bib-src");
+        if (!src) return;
+        fetchBib(src)
+          .then(function (text) {
+            var entry = parseBibtex(text || "");
+            var html = renderBibtexCitation(entry);
+            if (!html) throw new Error("Parse failed");
+            node.innerHTML = html;
+          })
+          .catch(function () {
+            node.textContent = "Citation unavailable.";
+          });
+      })(nodes[i]);
+    }
+  }
+
   function copyText(text) {
     if (navigator.clipboard && window.isSecureContext) {
       return navigator.clipboard.writeText(text);
@@ -65,19 +272,7 @@
     if (!bibSrc) return;
 
     button.textContent = "Loading";
-    var fetchPromise = bibCache[bibSrc]
-      ? Promise.resolve(bibCache[bibSrc])
-      : fetch(bibSrc)
-          .then(function (response) {
-            if (!response.ok) throw new Error("Fetch failed");
-            return response.text();
-          })
-          .then(function (text) {
-            bibCache[bibSrc] = text;
-            return text;
-          });
-
-    fetchPromise
+    fetchBib(bibSrc)
       .then(function (text) {
         var fetchedBibtex = (text || "").trim();
         if (!fetchedBibtex) throw new Error("Empty BibTeX");
@@ -96,6 +291,8 @@
         }, 1200);
       });
   });
+
+  renderBibtexCitations();
 })();
 </script>
 {% include analytics.html %}
