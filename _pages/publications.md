@@ -6,14 +6,7 @@ title: "Publications"
 # 📝 Publications 
 
 [**Journal**]
-- **G. Pan**, Y. Gao, Y. Gao, et al., "AI-driven Wireless Positioning: Fundamentals, Standards, State-of-the-art, and Challenges," IEEE Commun. Surveys Tuts., vol. 28, pp. 4394-4428, 2026. <button class="bibtex-copy" type="button">BibTeX</button><textarea class="bibtex-text" style="display:none">@article{Pan2026AIdriven,
-  author  = {Pan, Guangjin and Gao, Yuan and Gao, Y. and others},
-  title   = {AI-driven Wireless Positioning: Fundamentals, Standards, State-of-the-art, and Challenges},
-  journal = {IEEE Commun. Surveys Tuts.},
-  volume  = {28},
-  pages   = {4394--4428},
-  year    = {2026}
-}</textarea>
+- **G. Pan**, Y. Gao, Y. Gao, et al., "AI-driven Wireless Positioning: Fundamentals, Standards, State-of-the-art, and Challenges," IEEE Commun. Surveys Tuts., vol. 28, pp. 4394-4428, 2026. <button class="bibtex-copy" type="button" data-bib-src="{{ '/assets/bib/Pan2026AIdriven.bib' | relative_url }}">BibTeX</button>
 - X. Chen, Z. Zhou, W. Ni, **G. Pan**, S. Zhang, Y. Sun, and A. Jamalipour, "Scheduling and Securing Asynchronous Federated Learning Through Cooperative Jamming," IEEE Transactions on Cognitive Communications and Networking, vol. 12, pp. 3209-3222, 2026.
 - Y. Gao, **G. Pan**, Z. Zhong, et al., "Sidelink Positioning: Standardization Advancements, Opportunities and Challenges," IEEE Communications Magazine, 2025.
 - S. Xu, J. Jiang, W. Yu, Y. Gao, **G. Pan**, et al., "Enhanced Fingerprint-based Positioning With Practical Imperfections: Deep Learning-based Approaches," IEEE Wireless Communications, 2025.

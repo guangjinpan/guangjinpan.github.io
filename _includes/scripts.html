@@ -1,6 +1,8 @@
 <script src="{{ "/assets/js/main.min.js" | relative_url }}"></script>
 <script>
 (function () {
+  var bibCache = {};
+
   function copyText(text) {
     if (navigator.clipboard && window.isSecureContext) {
       return navigator.clipboard.writeText(text);
@@ -40,10 +42,47 @@
       }
     }
     bibtex = (bibtex || "").trim().replace(/\\n/g, "\n");
-    if (!bibtex) return;
 
     var originalText = button.textContent;
-    copyText(bibtex)
+    if (bibtex) {
+      copyText(bibtex)
+        .then(function () {
+          button.textContent = "Copied";
+          window.setTimeout(function () {
+            button.textContent = originalText;
+          }, 1200);
+        })
+        .catch(function () {
+          button.textContent = "Copy failed";
+          window.setTimeout(function () {
+            button.textContent = originalText;
+          }, 1200);
+        });
+      return;
+    }
+
+    var bibSrc = button.getAttribute("data-bib-src");
+    if (!bibSrc) return;
+
+    button.textContent = "Loading";
+    var fetchPromise = bibCache[bibSrc]
+      ? Promise.resolve(bibCache[bibSrc])
+      : fetch(bibSrc)
+          .then(function (response) {
+            if (!response.ok) throw new Error("Fetch failed");
+            return response.text();
+          })
+          .then(function (text) {
+            bibCache[bibSrc] = text;
+            return text;
+          });
+
+    fetchPromise
+      .then(function (text) {
+        var fetchedBibtex = (text || "").trim();
+        if (!fetchedBibtex) throw new Error("Empty BibTeX");
+        return copyText(fetchedBibtex);
+      })
       .then(function () {
         button.textContent = "Copied";
         window.setTimeout(function () {
