@@ -159,6 +159,19 @@
     return entries;
   }
 
+  function getBibEntryByKey(entries, key) {
+    var k = (key || "").trim();
+    if (!k) return null;
+    if (entries[k]) return entries[k];
+    var lower = k.toLowerCase();
+    for (var candidate in entries) {
+      if (Object.prototype.hasOwnProperty.call(entries, candidate) && candidate.toLowerCase() === lower) {
+        return entries[candidate];
+      }
+    }
+    return null;
+  }
+
   function formatAuthorName(name) {
     var n = (name || "").trim();
     if (!n) return "";
@@ -233,13 +246,14 @@
     for (var i = 0; i < nodes.length; i++) {
       (function (node) {
         var src = node.getAttribute("data-bib-src");
-        var key = node.getAttribute("data-bib-key");
+        var key = (node.getAttribute("data-bib-key") || "").trim();
         if (!src) return;
         fetchBib(src)
           .then(function (text) {
             if (key) {
               var entries = parseBibtexEntries(text || "");
-              var selected = entries[key] ? entries[key].entry : null;
+              var selectedBlock = getBibEntryByKey(entries, key);
+              var selected = selectedBlock ? selectedBlock.entry : null;
               var htmlByKey = renderBibtexCitation(selected);
               if (!htmlByKey) throw new Error("Parse failed");
               node.innerHTML = htmlByKey;
@@ -318,7 +332,7 @@
 
     var bibSrc = button.getAttribute("data-bib-src");
     if (!bibSrc) return;
-    var bibKey = button.getAttribute("data-bib-key");
+    var bibKey = (button.getAttribute("data-bib-key") || "").trim();
 
     button.textContent = "Loading";
     fetchBib(bibSrc)
@@ -328,7 +342,8 @@
 
         if (bibKey) {
           var entries = parseBibtexEntries(fetched);
-          var selectedRaw = entries[bibKey] ? entries[bibKey].raw : "";
+          var selectedBlock = getBibEntryByKey(entries, bibKey);
+          var selectedRaw = selectedBlock ? selectedBlock.raw : "";
           selectedRaw = (selectedRaw || "").trim();
           if (!selectedRaw) throw new Error("BibTeX key not found");
           return copyText(selectedRaw);
