@@ -31,7 +31,14 @@
 
     var container = button.closest("li") || button.parentElement || document;
     var bibElement = container.querySelector(".bibtex-text");
-    var bibtex = bibElement ? bibElement.textContent : "";
+    var bibtex = "";
+    if (bibElement) {
+      if (bibElement.tagName === "TEXTAREA") {
+        bibtex = bibElement.value;
+      } else {
+        bibtex = bibElement.textContent;
+      }
+    }
     bibtex = (bibtex || "").trim().replace(/\\n/g, "\n");
     if (!bibtex) return;
 
