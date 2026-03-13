@@ -6,7 +6,7 @@ title: "Publications"
 # 📝 Publications 
 
 [**Journal**]
-- <span class="bibtex-citation" data-bib-src="{{ '/assets/bib/Pan2026AIdriven.bib' | relative_url }}">Loading...</span> <button class="bibtex-copy" type="button" data-bib-src="{{ '/assets/bib/Pan2026AIdriven.bib' | relative_url }}">BibTeX</button>
+- <span class="bibtex-citation" data-bib-src="{{ '/assets/bib/publications.bib' | relative_url }}" data-bib-key="Pan2026AIdriven">Loading...</span> <button class="bibtex-copy" type="button" data-bib-src="{{ '/assets/bib/publications.bib' | relative_url }}" data-bib-key="Pan2026AIdriven">BibTeX</button>
 - X. Chen, Z. Zhou, W. Ni, **G. Pan**, S. Zhang, Y. Sun, and A. Jamalipour, "Scheduling and Securing Asynchronous Federated Learning Through Cooperative Jamming," IEEE Transactions on Cognitive Communications and Networking, vol. 12, pp. 3209-3222, 2026.
 - Y. Gao, **G. Pan**, Z. Zhong, et al., "Sidelink Positioning: Standardization Advancements, Opportunities and Challenges," IEEE Communications Magazine, 2025.
 - S. Xu, J. Jiang, W. Yu, Y. Gao, **G. Pan**, et al., "Enhanced Fingerprint-based Positioning With Practical Imperfections: Deep Learning-based Approaches," IEEE Wireless Communications, 2025.

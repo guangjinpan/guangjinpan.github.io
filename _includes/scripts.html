@@ -121,6 +121,44 @@
     return { citeKey: citeKey, fields: fields };
   }
 
+  function parseBibtexEntries(text) {
+    var entries = {};
+    var i = 0;
+    var t = text || "";
+
+    while (i < t.length) {
+      var atIndex = t.indexOf("@", i);
+      if (atIndex < 0) break;
+      var braceOpen = t.indexOf("{", atIndex);
+      if (braceOpen < 0) break;
+
+      var depth = 0;
+      var braceClose = -1;
+      for (var j = braceOpen; j < t.length; j++) {
+        var ch = t[j];
+        if (ch === "{") depth++;
+        else if (ch === "}") {
+          depth--;
+          if (depth === 0) {
+            braceClose = j;
+            break;
+          }
+        }
+      }
+      if (braceClose < 0) break;
+
+      var entryText = t.slice(atIndex, braceClose + 1);
+      var entry = parseBibtex(entryText);
+      if (entry && entry.citeKey) {
+        entries[entry.citeKey] = { entry: entry, raw: entryText };
+      }
+
+      i = braceClose + 1;
+    }
+
+    return entries;
+  }
+
   function formatAuthorName(name) {
     var n = (name || "").trim();
     if (!n) return "";
@@ -169,7 +207,7 @@
     var authorText = shownAuthors.join(", ");
     if (hasEtAl) authorText = (authorText ? authorText + ", " : "") + "et al.";
 
-    authorText = authorText.replace(/\bG\.\s*Pan\b/g, "<strong>G. Pan</strong>");
+    var safeAuthorText = escapeHtml(authorText).replace(/\bG\.\s*Pan\b/g, "<strong>G. Pan</strong>");
 
     var title = f.title || "";
     var venue = f.journal || f.booktitle || "";
@@ -179,7 +217,7 @@
     var year = f.year || "";
 
     var parts = [];
-    if (authorText) parts.push(authorText);
+    if (safeAuthorText) parts.push(safeAuthorText);
     if (title) parts.push("&quot;" + escapeHtml(title) + ",&quot;");
     if (venue) parts.push(escapeHtml(venue));
     if (volume) parts.push("vol. " + escapeHtml(volume));
@@ -195,11 +233,21 @@
     for (var i = 0; i < nodes.length; i++) {
       (function (node) {
         var src = node.getAttribute("data-bib-src");
+        var key = node.getAttribute("data-bib-key");
         if (!src) return;
         fetchBib(src)
           .then(function (text) {
-            var entry = parseBibtex(text || "");
-            var html = renderBibtexCitation(entry);
+            if (key) {
+              var entries = parseBibtexEntries(text || "");
+              var selected = entries[key] ? entries[key].entry : null;
+              var htmlByKey = renderBibtexCitation(selected);
+              if (!htmlByKey) throw new Error("Parse failed");
+              node.innerHTML = htmlByKey;
+              return;
+            }
+
+            var firstEntry = parseBibtex(text || "");
+            var html = renderBibtexCitation(firstEntry);
             if (!html) throw new Error("Parse failed");
             node.innerHTML = html;
           })
@@ -270,13 +318,23 @@
 
     var bibSrc = button.getAttribute("data-bib-src");
     if (!bibSrc) return;
+    var bibKey = button.getAttribute("data-bib-key");
 
     button.textContent = "Loading";
     fetchBib(bibSrc)
       .then(function (text) {
-        var fetchedBibtex = (text || "").trim();
-        if (!fetchedBibtex) throw new Error("Empty BibTeX");
-        return copyText(fetchedBibtex);
+        var fetched = (text || "").trim();
+        if (!fetched) throw new Error("Empty BibTeX");
+
+        if (bibKey) {
+          var entries = parseBibtexEntries(fetched);
+          var selectedRaw = entries[bibKey] ? entries[bibKey].raw : "";
+          selectedRaw = (selectedRaw || "").trim();
+          if (!selectedRaw) throw new Error("BibTeX key not found");
+          return copyText(selectedRaw);
+        }
+
+        return copyText(fetched);
       })
       .then(function () {
         button.textContent = "Copied";
