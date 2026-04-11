@@ -405,7 +405,7 @@
     var parts = [];
     if (safeAuthorText) parts.push(safeAuthorText);
     if (title) parts.push("&quot;" + escapeHtml(title) + ",&quot;");
-    if (venue) parts.push(escapeHtml(venue));
+    if (venue) parts.push("<em>" + escapeHtml(venue) + "</em>");
     if (volume) parts.push("vol. " + escapeHtml(volume));
     if (number) parts.push("no. " + escapeHtml(number));
     if (pages) parts.push("pp. " + escapeHtml(pages));
