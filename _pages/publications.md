@@ -22,7 +22,7 @@ title: "Publications"
 - H. Wen, J. Yu, **G. Pan**, X. Chen, S. Zhang and S. Xu, "A Hybrid CNN-LSTM Architecture for High Accurate Edge-Assisted Bandwidth Prediction," IEEE Wireless Communications Letters, vol. 11, no. 12, pp. 2640-2644, Dec. 2022.
 - J. Yu, H. Wen, **G. Pan**, S. Zhang, X. Chen, and S. Xu, "Quality of Experience Oriented Adaptive Video Streaming for Edge Assisted Cellular Networks," IEEE Wireless Communications Letters, vol. 11, no. 11, pp. 2305-2309, Nov. 2022.
 - H. Zhang, **G. Pan**, S. Xu, S. Zhang and Z. Jiang, "Prediction-based Hybrid Slicing Framework for Service Level Agreement Guarantee in Mobility Scenarios: A Deep Learning Approach," China Communications, 2022.
-- **G. Pan**, T. Wang, S. Zhang and S. Xu, "High Accurate Time-of-Arrival Estimation With Fine-Grained Feature Generation for Internet-of-Things Applications," IEEE Wireless Communications Letters, vol. 9, no. 11, pp. 1980-1984, Nov. 2020. 
+- <span class="bibtex-citation" data-bib-src="{{ '/assets/bib/publications.bib' | relative_url }}" data-bib-key="pan2020high">Loading...</span> <button class="bibtex-copy" type="button" data-bib-src="{{ '/assets/bib/publications.bib' | relative_url }}" data-bib-key="pan2020high">BibTeX</button> 
 
 [**Conference**]
 
@@ -45,7 +45,7 @@ title: "Publications"
 - H. Huang, **G. Pan\***, K. Huang, S. Zhang\*, et al., "A Retrieval-Assisted Framework for Wireless Localization," submitted to IEEE Transactions on Mobile Computing, 2026. (Under review)
 - **G. Pan**, A. Özçelikkale, C. Häger, et al., "Semantic Communication for Rate-Limited Closed-Loop Distributed Communication-Sensing-Control Systems," submitted to IEEE Journal on Selected Areas in Communications, 2025. (Under review)
 - **G. Pan**, K. Huang, H. Chen, et al., "Large Wireless Localization Model (LWLM): A Foundation Model for Positioning in 6G Networks," submitted to IEEE Transactions on Wireless Communications, 2025. (Major revision)
-- Y. Zhang, **G. Pan\***, M. Keskin, et al., "UNILocPro: Unified Localization Integrating Model-Based Geometry and Channel Charting," submitted to IEEE Transactions on Wireless Communications, 2025. (Under review)
-- K. Huang, C. Shen, **G. Pan**, et al., "Physics-Guided Deep Learning for WiFi-Based 3D Human Pose Estimation: A Multipath-Aware Framework with Hierarchical Semantic Fusion," submitted to CVPR, 2026. (Under review)
+<!-- - Y. Zhang, **G. Pan\***, M. Keskin, et al., "UNILocPro: Unified Localization Integrating Model-Based Geometry and Channel Charting," submitted to IEEE Transactions on Wireless Communications, 2025. (Under review) -->
+<!-- - K. Huang, C. Shen, **G. Pan**, et al., "Physics-Guided Deep Learning for WiFi-Based 3D Human Pose Estimation: A Multipath-Aware Framework with Hierarchical Semantic Fusion," submitted to CVPR, 2026. (Under review) -->
 <!-- - K. Huang, J. Zhou, J. Zhang, **G. Pan**, S. Zhang et al., "Cross-Domain Few-Shot Indoor Localization via Multi-Modal Feature-level Distribution Refinement with MK-MMD Optimization," submitted to IEEE Internet of Things Journal, 2025. (Under review) -->
 <!-- - Q. Zhang, X. Chen, W. Ni, **G. Pan**, D. Niyato, S. Zhang, Y. Sun et al., "Towards Secrecy Co-Inference: A Novel Framework Leveraging Model Partitioning and Friendly Collaborative Jamming," submitted to IEEE Transactions on Mobile Computing, 2025. (Under review) -->
