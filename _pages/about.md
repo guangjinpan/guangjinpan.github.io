@@ -33,6 +33,8 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 # 🔥 News
 <div class="news-scroll" markdown="1">
 
+- *2026.01*: &nbsp; 🎉 Our paper,  [*"Map-aided ISAC Beam Design via Active Sensing"*](https://ieeexplore.ieee.org/document/11479292) has been accepted by **IEEE Wireless Communications** (Authors: Xiao Cai, Guangjin Pan, Hui Chen, Henk Wymeersch and Hei Victor Cheng). 
+
 - *2026.01*: &nbsp; 🎉 My first-authored paper,  [*"Active Inference Framework for Closed-Loop Sensing, Communication, and Control in UAV Systems"*](https://arxiv.org/abs/2509.14201) has been accepted by **IEEE ICASSP** (Authors: Guangjin Pan, Liping Bai, Zhuojun Tian, Hui Chen, Mehdi Bennis, and Henk Wymeersch). 
 
 - *2025.12*: &nbsp; 🎉 Our paper [*"Sidelink Positioning: Standardization Advancements, Challenges and Opportunities"*](https://arxiv.org/abs/2512.24803) has been accepted by **IEEE Communications Magazine** (Authors: Yuan Gao, Guangjin Pan, Zhiyong Zhong, Zhengyu Jin, Yichen Hu, Yifei Jin, and Shugong Xu).  
