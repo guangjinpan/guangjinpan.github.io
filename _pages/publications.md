@@ -44,7 +44,7 @@ title: "Publications"
 [**Preprints**]
 - H. Huang, **G. Pan\***, K. Huang, S. Zhang\*, et al., "A Retrieval-Assisted Framework for Wireless Localization," submitted to IEEE Transactions on Mobile Computing, 2026. (Under review)
 - **G. Pan**, A. Özçelikkale, C. Häger, et al., "Semantic Communication for Rate-Limited Closed-Loop Distributed Communication-Sensing-Control Systems," submitted to IEEE Journal on Selected Areas in Communications, 2025. (Under review)
-- - <span class="bibtex-citation" data-bib-src="{{ '/assets/bib/publications.bib' | relative_url }}" data-bib-key="pan2025large">Loading...</span> <button class="bibtex-copy" type="button" data-bib-src="{{ '/assets/bib/publications.bib' | relative_url }}" data-bib-key="pan2025large">BibTeX</button> 
+- <span class="bibtex-citation" data-bib-src="{{ '/assets/bib/publications.bib' | relative_url }}" data-bib-key="pan2025large">Loading...</span> <button class="bibtex-copy" type="button" data-bib-src="{{ '/assets/bib/publications.bib' | relative_url }}" data-bib-key="pan2025large">BibTeX</button> 
 <!-- - Y. Zhang, **G. Pan\***, M. Keskin, et al., "UNILocPro: Unified Localization Integrating Model-Based Geometry and Channel Charting," submitted to IEEE Transactions on Wireless Communications, 2025. (Under review) -->
 <!-- - K. Huang, C. Shen, **G. Pan**, et al., "Physics-Guided Deep Learning for WiFi-Based 3D Human Pose Estimation: A Multipath-Aware Framework with Hierarchical Semantic Fusion," submitted to CVPR, 2026. (Under review) -->
 <!-- - K. Huang, J. Zhou, J. Zhang, **G. Pan**, S. Zhang et al., "Cross-Domain Few-Shot Indoor Localization via Multi-Modal Feature-level Distribution Refinement with MK-MMD Optimization," submitted to IEEE Internet of Things Journal, 2025. (Under review) -->
