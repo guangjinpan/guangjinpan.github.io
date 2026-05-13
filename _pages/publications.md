@@ -26,7 +26,8 @@ title: "Publications"
 
 [**Conference**]
 
-- **G. Pan**, Z. Li, A. Özçelikkale, C. Häger, M. Keskin, and H. Wymeersch, "Active Inference Framework for Closed-Loop Sensing, Communication, and Control Systems," IEEE ICASSP, 2026. (Accepted)
+
+- <span class="bibtex-citation" data-bib-src="{{ '/assets/bib/publications.bib' | relative_url }}" data-bib-key="Pan2026AIFICASSP">Loading...</span> <button class="bibtex-copy" type="button" data-bib-src="{{ '/assets/bib/publications.bib' | relative_url }}" data-bib-key="Pan2026AIFICASSP">BibTeX</button>
 - **G. Pan**, Z. Li, A. Özçelikkale, C. Häger, M. Keskin, and H. Wymeersch, "Observation Compression in Rate-Limited Closed-Loop Distributed ISAC Systems: From Signal Reconstruction to Control," IEEE Globecom Workshops, 2025.
 - Y. Zhang, **G. Pan**, M. Keskin, O. Kaltiokallio, M. Valkama, and H. Wymeersch, "UNILoc: Unified Localization Combining Model-Based Geometry and Unsupervised Learning," IEEE Globecom, 2025.
 - X. Chen, Q. Zhang, W. Ni, **G. Pan**, et al., "Towards Secure Co-Inference: Leveraging DNN Partitioning and Collaborative Friendly Jamming," IEEE ICCC, Shanghai, China, 2025, pp. 1-6.
