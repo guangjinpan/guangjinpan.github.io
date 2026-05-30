@@ -33,6 +33,8 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 # 🔥 News
 <div class="news-scroll" markdown="1">
 
+- *2026.05*: &nbsp; 🎉 Our paper,  [*"Few-Shot Cross-Domain Indoor Localization via Multi-Modal Feature Refinement"*](https://ieeexplore.ieee.org/abstract/document/11534794) has been accepted by **IEEE Internet of Things Journal** (Authors: Kaixuan Huang, Junyi Zhou, J. Andrew Zhang, Guangjin Pan and Shunqing Zhang). 
+
 - *2026.04*: &nbsp; 🎉 Our paper,  [*"Map-aided ISAC Beam Design via Active Sensing"*](https://ieeexplore.ieee.org/document/11479292) has been accepted by **IEEE Wireless Communications** (Authors: Xiao Cai, Guangjin Pan, Hui Chen, Henk Wymeersch and Hei Victor Cheng). 
 
 - *2026.01*: &nbsp; 🎉 My first-authored paper,  [*"Active Inference Framework for Closed-Loop Sensing, Communication, and Control in UAV Systems"*](https://ieeexplore.ieee.org/abstract/document/11463037) has been accepted by **IEEE ICASSP** (Authors: Guangjin Pan, Liping Bai, Zhuojun Tian, Hui Chen, Mehdi Bennis, and Henk Wymeersch). 
