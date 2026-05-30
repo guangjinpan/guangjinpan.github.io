@@ -6,6 +6,7 @@ title: "Publications"
 # 📝 Publications 
 
 [**Journal**]
+- <span class="bibtex-citation" data-bib-src="{{ '/assets/bib/publications.bib' | relative_url }}" data-bib-key="Huang2026Fewshot">Loading...</span> <button class="bibtex-copy" type="button" data-bib-src="{{ '/assets/bib/publications.bib' | relative_url }}" data-bib-key="Cai2026Mapaided">BibTeX</button>
 - <span class="bibtex-citation" data-bib-src="{{ '/assets/bib/publications.bib' | relative_url }}" data-bib-key="Cai2026Mapaided">Loading...</span> <button class="bibtex-copy" type="button" data-bib-src="{{ '/assets/bib/publications.bib' | relative_url }}" data-bib-key="Cai2026Mapaided">BibTeX</button>
 - <span class="bibtex-citation" data-bib-src="{{ '/assets/bib/publications.bib' | relative_url }}" data-bib-key="Pan2026AIdriven">Loading...</span> <button class="bibtex-copy" type="button" data-bib-src="{{ '/assets/bib/publications.bib' | relative_url }}" data-bib-key="Pan2026AIdriven">BibTeX</button>
 - <span class="bibtex-citation" data-bib-src="{{ '/assets/bib/publications.bib' | relative_url }}" data-bib-key="ni2026scheduling">Loading...</span> <button class="bibtex-copy" type="button" data-bib-src="{{ '/assets/bib/publications.bib' | relative_url }}" data-bib-key="ni2026scheduling">BibTeX</button>
