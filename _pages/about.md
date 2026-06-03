@@ -28,7 +28,7 @@ My research interests include,
 
 
 
-You can find my curated paper list for wireless large AI models here: [Wireless-LAM](https://github.com/guangjinpan/Wireless-Large-Model) (continuously updated).
+<!-- You can find my curated paper list for wireless large AI models here: [Wireless-LAM](https://github.com/guangjinpan/Wireless-Large-Model) (continuously updated). -->
 
 # 🔭 Vision: Foundation Models and World Models for AI-Native Networks
 
