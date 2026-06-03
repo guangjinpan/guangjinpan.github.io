@@ -30,6 +30,13 @@ My research interests include,
 
 You can find my curated paper list for wireless large AI models here: [Wireless-LAM](https://github.com/guangjinpan/Wireless-Large-Model) (continuously updated).
 
+# 🔭 Vision: Foundation Models and World Models for AI-Native Networks
+
+<div style="text-align:center; margin-bottom: 1.5em;">
+  <img src="/images/vision.png" alt="Towards AI-Native Wireless Networks" style="max-width:100%; border-radius:8px;">
+  <p style="font-size:0.85em; color:#666; margin-top:0.5em;"><em>Building Foundation Models and Radio World Models to Perceive, Understand, Reason, and Act — Towards AI-Native Wireless Networks.</em></p>
+</div>
+
 # 🔥 News
 <div class="news-scroll" markdown="1">
 
@@ -73,12 +80,6 @@ You can find my curated paper list for wireless large AI models here: [Wireless-
 
 </div>
 
-## 🔭 Vision: Towards AI-Native Wireless Networks
-
-<div style="text-align:center; margin-bottom: 1.5em;">
-  <img src="/images/image.png" alt="Towards AI-Native Wireless Networks" style="max-width:100%; border-radius:8px;">
-  <p style="font-size:0.85em; color:#666; margin-top:0.5em;"><em>Bridging Wireless Physics and Artificial Intelligence, Empowering the Next Generation of Intelligent Connectivity.</em></p>
-</div>
 
 > <span style="font-size: 0.9em;">🌟 Motto: *Through hardships to the stars.* | *自强不息；先天下之忧而忧，后天下之乐而乐*</span>
 
