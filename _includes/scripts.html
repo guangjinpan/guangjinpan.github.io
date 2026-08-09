@@ -3,6 +3,45 @@
 (function () {
   var bibCache = {};
 
+  // Convert common LaTeX escapes to Unicode for *display only*.
+  // The copy-BibTeX path uses the raw entry text, so it keeps the LaTeX form.
+  function latexToUnicode(input) {
+    var s = input || "";
+    if (s.indexOf("\\") < 0 && s.indexOf("{") < 0) return s;
+
+    var accents = {
+      '"': { a: "ä", o: "ö", u: "ü", A: "Ä", O: "Ö", U: "Ü", e: "ë", i: "ï", y: "ÿ", s: "ß" },
+      "'": { a: "á", e: "é", i: "í", o: "ó", u: "ú", y: "ý", A: "Á", E: "É", I: "Í", O: "Ó", U: "Ú", c: "ć", n: "ń", s: "ś", z: "ź" },
+      "`": { a: "à", e: "è", i: "ì", o: "ò", u: "ù", A: "À", E: "È", I: "Ì", O: "Ò", U: "Ù" },
+      "^": { a: "â", e: "ê", i: "î", o: "ô", u: "û", A: "Â", E: "Ê", I: "Î", O: "Ô", U: "Û" },
+      "~": { a: "ã", o: "õ", n: "ñ", A: "Ã", O: "Õ", N: "Ñ" },
+      "=": { a: "ā", e: "ē", i: "ī", o: "ō", u: "ū" },
+      ".": { a: "ȧ", e: "ė", z: "ż", Z: "Ż" }
+    };
+
+    // Accent commands: {\"a}, \"{a}, \"a, {\c c}, \o, {\ss}, \& ...
+    // \<accent> optionally-braced <letter>
+    s = s.replace(/\\([\"'`^~=.])\s*\{?\\?([A-Za-z])\}?/g, function (m, acc, ch) {
+      var map = accents[acc];
+      return (map && map[ch]) ? map[ch] : ch;
+    });
+    // \c{c} / \c c cedilla
+    s = s.replace(/\\c\s*\{?([A-Za-z])\}?/g, function (m, ch) {
+      var ced = { c: "ç", C: "Ç", s: "ş", S: "Ş" };
+      return ced[ch] || ch;
+    });
+    // Standalone letter commands: \o, \O, \ss, \aa, \AA, \l, \L, \ae, \AE
+    var letters = { o: "ø", O: "Ø", ss: "ß", aa: "å", AA: "Å", l: "ł", L: "Ł", ae: "æ", AE: "Æ", oe: "œ", OE: "Œ" };
+    s = s.replace(/\{?\\(ss|aa|AA|ae|AE|oe|OE|[oOlL])\}?/g, function (m, cmd) {
+      return letters[cmd] || m;
+    });
+    // Escaped specials
+    s = s.replace(/\\([&%$#_])/g, "$1");
+    // Drop remaining lone braces used purely for grouping
+    s = s.replace(/[{}]/g, "");
+    return s;
+  }
+
   function fetchBib(bibSrc) {
     if (bibCache[bibSrc]) return Promise.resolve(bibCache[bibSrc]);
     return fetch(bibSrc)
@@ -112,7 +151,7 @@
       if (rawValue[0] === "\"") rawValue = rawValue.slice(1, -1);
       rawValue = rawValue.replace(/\s+/g, " ").trim();
 
-      if (key) fields[key.toLowerCase()] = rawValue;
+      if (key) fields[key.toLowerCase()] = latexToUnicode(rawValue);
 
       while (pos < body.length && body[pos] !== ",") pos++;
       if (body[pos] === ",") pos++;
