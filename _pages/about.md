@@ -40,6 +40,8 @@ My research interests include,
 # 🔥 News
 <div class="news-scroll" markdown="1">
 
+- *2026.08*: &nbsp; 🎉 My first-authored paper, [*"Large Wireless Localization Model (LWLM): A Foundation Model for Positioning in 6G Networks"*](https://ieeexplore.ieee.org/document/11644094) has been accepted by **IEEE Transactions on Wireless Communications** (Authors: Guangjin Pan, Kaixuan Huang, Hui Chen, Shunqing Zhang, Christian Häger, and Henk Wymeersch).
+
 - *2026.05*: &nbsp; 🎉 Our paper,  [*"Few-Shot Cross-Domain Indoor Localization via Multi-Modal Feature Refinement"*](https://ieeexplore.ieee.org/abstract/document/11534794) has been accepted by **IEEE Internet of Things Journal** (Authors: Kaixuan Huang, Junyi Zhou, J. Andrew Zhang, Guangjin Pan and Shunqing Zhang). 
 
 - *2026.04*: &nbsp; 🎉 Our paper,  [*"Map-aided ISAC Beam Design via Active Sensing"*](https://ieeexplore.ieee.org/document/11479292) has been accepted by **IEEE Wireless Communications** (Authors: Xiao Cai, Guangjin Pan, Hui Chen, Henk Wymeersch and Hei Victor Cheng). 
