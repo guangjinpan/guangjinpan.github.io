@@ -45,6 +45,8 @@ title: "Publications"
 - **G. Pan**, Tao W, X. Jiang, and S. Zhang, "Deep Learning based OTDOA Positioning for NB-IoT Communication Systems," Mobimedia, 27-28 August 2020.
 
 [**Preprints**]
+- **G. Pan**, J. Guo, Z. Xing, H. Chen, C.-K. Wen, S. Jin, and H. Wymeersch, "Foundation Models for Wireless Localization: Pretraining, Adaptation, and Utilization," submitted to IEEE Wireless Communications, 2026. (Under review) [[pdf]](https://arxiv.org/abs/2608.30540)
+- **G. Pan**, H. Chen, H. V. Cheng, and H. Wymeersch, "RA-LWLM: Retrieval-Augmented In-Context Localization with Wireless Foundation Models," submitted to IEEE Journal of Selected Topics in Signal Processing, 2026. (Under review) [[pdf]](https://arxiv.org/abs/2606.01899)
 - H. Huang, **G. Pan\***, K. Huang, S. Zhang\*, et al., "A Retrieval-Assisted Framework for Wireless Localization," submitted to IEEE Transactions on Mobile Computing, 2026. (Under review)
 - **G. Pan**, A. Özçelikkale, C. Häger, et al., "Semantic Communication for Rate-Limited Closed-Loop Distributed Communication-Sensing-Control Systems," submitted to IEEE Journal on Selected Areas in Communications, 2025. (Under review)
 <!-- - Y. Zhang, **G. Pan\***, M. Keskin, et al., "UNILocPro: Unified Localization Integrating Model-Based Geometry and Channel Charting," submitted to IEEE Transactions on Wireless Communications, 2025. (Under review) -->
