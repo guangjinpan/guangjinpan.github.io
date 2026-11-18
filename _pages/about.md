@@ -40,7 +40,9 @@ My research interests include,
 # 🔥 News
 <div class="news-scroll" markdown="1">
 
-- *2026.10*: &nbsp; 🎉 Our paper, [*"GAP-LWLM: Geometry-Aware Prompt Tuning for Cross-Scene Localization with a Wireless Foundation Model"*](https://ieeexplore.ieee.org/abstract/document/11753938) has been accepted by **IEEE Wireless Communications Letters** (Authors: Zichen Ren, Guangjin Pan, Kaixuan Huang, Xiaojing Chen, Shunqing Zhang, and Zheng Xing).
+- *2026.10*: &nbsp; 🎉 Our paper, [*"Survey-Free Radio Map Construction via HMM-Based Coarse-to-Fine Inference"*](https://ieeexplore.ieee.org/abstract/document/11753470) has been accepted by **IEEE Transactions on Network Science and Engineering** (Authors: Zheng Xing, Weibing Zhao, Guangjin Pan, Guanghui Zhang, Xuhui Zhang, and Jinke Ren).
+
+- *2026.10*: &nbsp; 🎉 Our paper, [*"GAP-LWLM: Geometry-Aware Prompt Tuning for Cross-Scene Localization with a Wireless Foundation Model"*](https://ieeexplore.ieee.org/abstract/document/11753938) has been accepted by **IEEE Wireless Communications Letters** (Authors: Zichen Ren, Guangjin Pan, Kaixuan Huang, Xiaojing Chen, Shunqing Zhang, Zheng Xing, and Henk Wymeersch).
 
 - *2026.08*: &nbsp; 🎉 My first-authored paper, [*"Large Wireless Localization Model (LWLM): A Foundation Model for Positioning in 6G Networks"*](https://ieeexplore.ieee.org/document/11644094) has been accepted by **IEEE Transactions on Wireless Communications** (Authors: Guangjin Pan, Kaixuan Huang, Hui Chen, Shunqing Zhang, Christian Häger, and Henk Wymeersch). It was listed among the [**IEEE Popular Papers**](https://ieeexplore.ieee.org/xpl/topAccessedArticles.jsp?punumber=7693&topArticlesDate=August%202026) of IEEE Transactions on Wireless Communications (ranked #1) in Aug. 2026.
 
